@@ -1,0 +1,278 @@
+15 Demographic variables:
+
+age: 33 entries
+    M: 31 entries
+    tMR: 2 entries
+parity: 26 entries
+    M: 24 entries
+    tMR: 2 entries
+previous_cesarean_deliveries: 28 entries
+    M: 26 entries
+    tM: 2 entries
+placenta_previa: 15 entries
+    N: 15 entries
+gestational_age_at_delivery_week: 22 entries
+    M: 22 entries
+accreta: 17 entries
+    N: 17 entries
+increta: 18 entries
+    N: 18 entries
+percreta: 19 entries
+    N: 19 entries
+bmi: 9 entries
+    M: 9 entries
+gravidity: 17 entries
+    M: 15 entries
+    tMR: 2 entries
+d_c_history: 11 entries
+    M: 6 entries
+    N: 5 entries
+notable_pre_existing_condition: 2 entries
+    N: 2 entries
+myomectomy: 5 entries
+    N: 5 entries
+abortion_miscarriage: 3 entries
+    M: 2 entries
+    N: 1 entries
+cervical_length_mm: 2 entries
+    M: 2 entries
+
+M: Provides mean and standard deviation values for each group and a p-value.
+OR: Includes odds ratio (OR), along with lower and upper confidence intervals, and a p-value.
+RR: Includes relative risk (RR), along with lower and upper confidence intervals, and a p-value.
+N: Shows the number and total population for each group and a p-value.
+MR: Offers median values and ranges for each group and a p-value.
+tM: Provides the mean and standard deviation only for the whole population (both groups).
+tMR: Includes the median and range only for the whole population (both groups).
+
+
+[{'descriptive_stats':        n_hysterectomy  total_hysterectomy  n_conservative  total_conservative  \
+count       15.000000           15.000000        15.00000           15.000000   
+mean        46.200000           60.866667        40.80000           57.933333   
+std         54.980776           60.822771        58.26197           72.218386   
+min          0.000000            5.000000         0.00000            6.000000   
+25%         10.000000           21.000000         7.00000           15.000000   
+50%         20.000000           38.000000        15.00000           16.000000   
+75%         64.000000           70.500000        47.00000           67.000000   
+max        160.000000          186.000000       211.00000          217.000000   
+
+       prop_hysterectomy  prop_conservative  
+count          15.000000          15.000000  
+mean            0.674711           0.657732  
+std             0.337216           0.325954  
+min             0.000000           0.000000  
+25%             0.404386           0.427885  
+50%             0.822581           0.755814  
+75%             0.987342           0.986175  
+max             1.000000           1.000000  ,
+  'variable': 'Placenta Previa'},
+ {'descriptive_stats':        mean_hysterectomy  mean_conservative  sd_hysterectomy  sd_conservative
+count          26.000000          26.000000        26.000000        26.000000
+mean            2.103000           1.837731         0.716492         0.807250
+std             0.663613           0.557954         0.285302         0.263199
+min             1.000000           1.000000         0.250000         0.500000
+25%             1.777500           1.500000         0.543150         0.518125
+50%             2.000000           1.760000         0.689500         0.825000
+75%             2.212500           2.000000         0.918000         0.971750
+max             3.400000           3.260000         1.220000         1.500000,
+  'variable': 'Previous cesarean deliveries'},
+ {'descriptive_stats':        mean_hysterectomy  mean_conservative  sd_hysterectomy  sd_conservative
+count          24.000000          24.000000        24.000000        24.000000
+mean            2.419250           2.224875         0.892042         0.969417
+std             0.809177           0.721893         0.383433         0.308681
+min             1.000000           1.000000         0.250000         0.500000
+25%             2.000000           1.787500         0.711000         0.730000
+50%             2.250000           2.115000         0.905000         0.940000
+75%             2.775000           2.752500         1.100000         1.220000
+max             3.947000           3.800000         1.810000         1.520000,
+  'variable': 'Parity'},
+ {'descriptive_stats':        mean_hysterectomy  mean_conservative  sd_hysterectomy  sd_conservative
+count          31.000000          31.000000        31.000000        31.000000
+mean           33.499032          32.895581         4.151065         4.429516
+std             1.899441           2.043919         1.136558         1.882734
+min            26.540000          29.000000         1.500000         1.296000
+25%            32.540000          31.650000         3.750000         3.550000
+50%            33.600000          33.000000         4.250000         4.500000
+75%            34.600000          33.950000         4.919500         5.350000
+max            37.000000          37.000000         6.460000        10.750000,
+  'variable': 'Age'},
+ {'descriptive_stats':        n_hysterectomy  total_hysterectomy  n_conservative  total_conservative  \
+count        2.000000            2.000000        2.000000            2.000000   
+mean         5.000000           43.500000        3.500000           50.500000   
+std          5.656854           26.162951        3.535534           50.204581   
+min          1.000000           25.000000        1.000000           15.000000   
+25%          3.000000           34.250000        2.250000           32.750000   
+50%          5.000000           43.500000        3.500000           50.500000   
+75%          7.000000           52.750000        4.750000           68.250000   
+max          9.000000           62.000000        6.000000           86.000000   
+
+       prop_hysterectomy  prop_conservative  
+count           2.000000           2.000000  
+mean            0.092581           0.068217  
+std             0.074360           0.002193  
+min             0.040000           0.066667  
+25%             0.066290           0.067442  
+50%             0.092581           0.068217  
+75%             0.118871           0.068992  
+max             0.145161           0.069767  ,
+  'variable': 'Notable Pre-existing Condition '},
+ {'descriptive_stats':        n_hysterectomy  total_hysterectomy  n_conservative  total_conservative  \
+count       18.000000           18.000000       18.000000           18.000000   
+mean        16.666667           52.277778       19.333333           46.666667   
+std         26.865679           58.242703       35.782020           66.121101   
+min          0.000000            8.000000        0.000000            3.000000   
+25%          3.000000           17.750000        0.250000           14.250000   
+50%          7.000000           27.000000        4.500000           17.500000   
+75%         14.750000           59.750000       10.000000           35.250000   
+max        109.000000          186.000000      115.000000          217.000000   
+
+       prop_hysterectomy  prop_conservative  
+count          18.000000          18.000000  
+mean            0.306156           0.249690  
+std             0.248673           0.237747  
+min             0.000000           0.000000  
+25%             0.121053           0.016667  
+50%             0.263656           0.237931  
+75%             0.375000           0.355112  
+max             0.823529           0.821429  ,
+  'variable': 'increta'},
+ {'descriptive_stats':        n_hysterectomy  total_hysterectomy  n_conservative  total_conservative  \
+count       19.000000           19.000000       19.000000           19.000000   
+mean        26.421053           52.736842       17.894737           48.842105   
+std         37.025991           56.637092       30.305655           64.743308   
+min          0.000000            8.000000        0.000000            6.000000   
+25%          2.000000           18.500000        2.000000           14.500000   
+50%         12.000000           27.000000        7.000000           19.000000   
+75%         28.000000           64.000000       19.000000           37.500000   
+max        119.000000          186.000000      132.000000          217.000000   
+
+       prop_hysterectomy  prop_conservative  
+count          19.000000          19.000000  
+mean            0.427218           0.390143  
+std             0.349462           0.358651  
+min             0.000000           0.000000  
+25%             0.162953           0.116667  
+50%             0.352941           0.241379  
+75%             0.639785           0.604147  
+max             1.000000           1.000000  ,
+  'variable': 'percreta'},
+ {'descriptive_stats':        mean_hysterectomy  mean_conservative  sd_hysterectomy  sd_conservative  \
+count            6.00000           6.000000         6.000000         6.000000   
+mean             0.93500           0.595000         0.995000         0.676667   
+std              0.90035           0.589025         0.262964         0.267333   
+min              0.00000           0.000000         0.750000         0.250000   
+25%              0.19250           0.100000         0.812500         0.550000   
+50%              0.80500           0.535000         1.000000         0.725000   
+75%              1.71000           0.917500         1.000000         0.832500   
+max              2.00000           1.500000         1.470000         1.000000   
+
+       n_hysterectomy  total_hysterectomy  n_conservative  total_conservative  
+count        5.000000            5.000000        5.000000             5.00000  
+mean        12.400000           46.200000       23.800000            79.20000  
+std          2.880972           17.598295       20.315019            75.50298  
+min          8.000000           24.000000        4.000000            29.00000  
+25%         12.000000           38.000000        9.000000            30.00000  
+50%         13.000000           41.000000       20.000000            44.00000  
+75%         13.000000           61.000000       31.000000            85.00000  
+max         16.000000           67.000000       55.000000           208.00000  ,
+  'variable': 'D&C history'},
+ {'descriptive_stats':        mean_hysterectomy  mean_conservative  sd_hysterectomy  sd_conservative
+count           2.000000            2.00000              2.0         2.000000
+mean           25.050000           33.85000              7.3         7.050000
+std             4.313351           12.51579              0.0         3.323402
+min            22.000000           25.00000              7.3         4.700000
+25%            23.525000           29.42500              7.3         5.875000
+50%            25.050000           33.85000              7.3         7.050000
+75%            26.575000           38.27500              7.3         8.225000
+max            28.100000           42.70000              7.3         9.400000,
+  'variable': 'Cervical Length (mm)'},
+ {'descriptive_stats':        n_hysterectomy  total_hysterectomy  n_conservative  total_conservative  \
+count        5.000000            5.000000          5.0000            5.000000   
+mean         2.800000           46.400000          4.0000           79.400000   
+std          2.683282           17.812917          4.1833           75.523506   
+min          0.000000           24.000000          0.0000           29.000000   
+25%          1.000000           38.000000          2.0000           30.000000   
+50%          3.000000           41.000000          3.0000           44.000000   
+75%          3.000000           62.000000          4.0000           86.000000   
+max          7.000000           67.000000         11.0000          208.000000   
+
+       prop_hysterectomy  prop_conservative  
+count           5.000000           5.000000  
+mean            0.051240           0.097949  
+std             0.041703           0.152329  
+min             0.000000           0.000000  
+25%             0.024390           0.019231  
+50%             0.048387           0.034884  
+75%             0.078947           0.068966  
+max             0.104478           0.366667  ,
+  'variable': 'Myomectomy'},
+ {'descriptive_stats':        n_hysterectomy  total_hysterectomy  n_conservative  total_conservative  \
+count       17.000000           17.000000       17.000000           17.000000   
+mean         8.705882           47.117647       10.529412           41.352941   
+std         11.617684           55.632592       14.828678           63.678824   
+min          0.000000            8.000000        0.000000            6.000000   
+25%          2.000000           17.000000        1.000000           14.000000   
+50%          3.000000           27.000000        7.000000           16.000000   
+75%         11.000000           38.000000       14.000000           30.000000   
+max         45.000000          186.000000       60.000000          217.000000   
+
+       prop_hysterectomy  prop_conservative  
+count          17.000000          17.000000  
+mean            0.232789           0.345831  
+std             0.207883           0.335572  
+min             0.000000           0.000000  
+25%             0.088235           0.032258  
+50%             0.200000           0.263158  
+75%             0.375000           0.600000  
+max             0.671642           1.000000  ,
+  'variable': 'accreta'},
+ {'descriptive_stats':        mean_hysterectomy  mean_conservative  sd_hysterectomy  sd_conservative
+count           9.000000           9.000000         9.000000         9.000000
+mean           27.925556          26.630000         4.001111         4.500556
+std             2.625348           2.503557         1.880442         2.497402
+min            22.850000          21.750000         2.000000         1.675000
+25%            26.400000          25.000000         2.870000         2.810000
+50%            29.070000          27.340000         3.500000         4.250000
+75%            30.000000          28.900000         4.700000         5.350000
+max            30.400000          29.080000         7.540000        10.000000,
+  'variable': 'BMI'},
+ {'descriptive_stats':        mean_hysterectomy  mean_conservative  sd_hysterectomy  sd_conservative
+count          15.000000          15.000000        15.000000        15.000000
+mean            4.060000           3.853333         1.199333         1.247333
+std             0.804274           0.827101         0.395790         0.473625
+min             3.000000           2.900000         0.500000         0.700000
+25%             3.350000           3.050000         1.000000         0.875000
+50%             4.000000           4.000000         1.250000         1.200000
+75%             4.750000           4.050000         1.400000         1.450000
+max             5.200000           6.000000         2.000000         2.300000,
+  'variable': 'Gravidity'},
+ {'descriptive_stats':        mean_hysterectomy  mean_conservative  sd_hysterectomy  sd_conservative  \
+count           2.000000           2.000000         2.000000         2.000000   
+mean            0.360000           0.200000         0.645000         0.565000   
+std             0.509117           0.282843         0.205061         0.091924   
+min             0.000000           0.000000         0.500000         0.500000   
+25%             0.180000           0.100000         0.572500         0.532500   
+50%             0.360000           0.200000         0.645000         0.565000   
+75%             0.540000           0.300000         0.717500         0.597500   
+max             0.720000           0.400000         0.790000         0.630000   
+
+       n_hysterectomy  total_hysterectomy  n_conservative  total_conservative  
+count             1.0                 1.0             1.0                 1.0  
+mean              6.0                24.0            14.0                44.0  
+std               NaN                 NaN             NaN                 NaN  
+min               6.0                24.0            14.0                44.0  
+25%               6.0                24.0            14.0                44.0  
+50%               6.0                24.0            14.0                44.0  
+75%               6.0                24.0            14.0                44.0  
+max               6.0                24.0            14.0                44.0  ,
+  'variable': 'Abortion (Miscarriage)'},
+ {'descriptive_stats':        mean_hysterectomy  mean_conservative  sd_hysterectomy  sd_conservative
+count          19.000000          19.000000        19.000000         19.00000
+mean           35.040000          35.377895         2.408211          2.13900
+std             1.433209           1.233192         1.294083          1.18718
+min            32.400000          33.000000         0.500000          0.25000
+25%            34.000000          34.585000         1.490000          1.42500
+50%            35.000000          35.100000         2.300000          1.90000
+75%            36.300000          36.000000         3.200000          2.86000
+max            37.000000          38.000000         5.060000          4.81000,
+  'variable': 'Gestational age at delivery, week'}]
