@@ -1,0 +1,304 @@
+                                GLS Regression Results                               
+=====================================================================================
+Dep. Variable:     duration_of_icu_stay_days   R-squared:                       0.988
+Model:                                   GLS   Adj. R-squared:                  0.985
+Method:                        Least Squares   F-statistic:                     328.1
+Date:                       Sat, 03 Aug 2024   Prob (F-statistic):           5.46e-05
+Time:                               15:06:37   Log-Likelihood:                0.27560
+No. Observations:                          6   AIC:                             3.449
+Df Residuals:                              4   BIC:                             3.032
+Df Model:                                  1                                         
+Covariance Type:                   nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+Intercept         0.1138      0.182      0.626      0.565      -0.391       0.619
+age_mean_diff     0.0441      0.086      0.513      0.635      -0.195       0.283
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.648
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.778
+Skew:                           0.573   Prob(JB):                        0.678
+Kurtosis:                       1.659   Cond. No.                         3.81
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 7
+     Mehmet S. Kutuk 2018 [Placenta left in situ (Group 2)]
+     Mehmet S. Kutuk 2018 [Placental removal and conservative surgery (Group 3)]
+     Hüseyin Durukan 2021 [Group B: Bakri balloon application without resection]
+     Hüseyin Durukan 2021 [Group R: segmental uterine resection]
+     Talip Karaçor 2021 [Uterus-sparing surgery ]
+     Man Y. Chung 2013 [Extirpative approach (manual removal of the adherent placenta during cesarean section)]
+     Man Y. Chung 2013 [Placenta In Situ (the placenta is deliberately left in place during cesarean section, and uterine artery embolization (UAE) is performed postoperatively)]
+
+
+                                GLS Regression Results                               
+=====================================================================================
+Dep. Variable:     duration_of_icu_stay_days   R-squared:                       0.992
+Model:                                   GLS   Adj. R-squared:                  0.990
+Method:                        Least Squares   F-statistic:                     520.1
+Date:                       Sat, 03 Aug 2024   Prob (F-statistic):           2.19e-05
+Time:                               15:06:37   Log-Likelihood:                 1.6447
+No. Observations:                          6   AIC:                            0.7106
+Df Residuals:                              4   BIC:                            0.2941
+Df Model:                                  1                                         
+Covariance Type:                   nonrobust                                         
+=======================================================================================
+                          coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+Intercept               0.1438      0.095      1.507      0.206      -0.121       0.409
+gravidity_mean_diff     0.1329      0.080      1.652      0.174      -0.090       0.356
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.065
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.803
+Skew:                           0.094   Prob(JB):                        0.669
+Kurtosis:                       1.218   Cond. No.                         1.38
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 7
+     Mehmet S. Kutuk 2018 [Placenta left in situ (Group 2)]
+     Mehmet S. Kutuk 2018 [Placental removal and conservative surgery (Group 3)]
+     Hüseyin Durukan 2021 [Group B: Bakri balloon application without resection]
+     Hüseyin Durukan 2021 [Group R: segmental uterine resection]
+     Talip Karaçor 2021 [Uterus-sparing surgery ]
+     Man Y. Chung 2013 [Extirpative approach (manual removal of the adherent placenta during cesarean section)]
+     Man Y. Chung 2013 [Placenta In Situ (the placenta is deliberately left in place during cesarean section, and uterine artery embolization (UAE) is performed postoperatively)]
+
+
+                                GLS Regression Results                               
+=====================================================================================
+Dep. Variable:     duration_of_icu_stay_days   R-squared:                       0.994
+Model:                                   GLS   Adj. R-squared:                  0.992
+Method:                        Least Squares   F-statistic:                     658.7
+Date:                       Sat, 03 Aug 2024   Prob (F-statistic):           1.37e-05
+Time:                               15:06:37   Log-Likelihood:                 2.3482
+No. Observations:                          6   AIC:                           -0.6965
+Df Residuals:                              4   BIC:                            -1.113
+Df Model:                                  1                                         
+Covariance Type:                   nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+Intercept            0.1597      0.083      1.931      0.126      -0.070       0.389
+parity_mean_diff     0.1964      0.092      2.123      0.101      -0.060       0.453
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.287
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.507
+Skew:                          -0.383   Prob(JB):                        0.776
+Kurtosis:                       1.800   Cond. No.                         1.21
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 7
+     Mehmet S. Kutuk 2018 [Placenta left in situ (Group 2)]
+     Mehmet S. Kutuk 2018 [Placental removal and conservative surgery (Group 3)]
+     Hüseyin Durukan 2021 [Group B: Bakri balloon application without resection]
+     Hüseyin Durukan 2021 [Group R: segmental uterine resection]
+     Talip Karaçor 2021 [Uterus-sparing surgery ]
+     Man Y. Chung 2013 [Extirpative approach (manual removal of the adherent placenta during cesarean section)]
+     Man Y. Chung 2013 [Placenta In Situ (the placenta is deliberately left in place during cesarean section, and uterine artery embolization (UAE) is performed postoperatively)]
+
+
+                                GLS Regression Results                               
+=====================================================================================
+Dep. Variable:     duration_of_icu_stay_days   R-squared:                       0.988
+Model:                                   GLS   Adj. R-squared:                  0.985
+Method:                        Least Squares   F-statistic:                     329.7
+Date:                       Sat, 03 Aug 2024   Prob (F-statistic):           5.41e-05
+Time:                               15:06:37   Log-Likelihood:                0.29055
+No. Observations:                          6   AIC:                             3.419
+Df Residuals:                              4   BIC:                             3.002
+Df Model:                                  1                                         
+Covariance Type:                   nonrobust                                         
+==========================================================================================================
+                                             coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------------
+Intercept                                  0.1287      0.157      0.818      0.459      -0.308       0.566
+previous_cesarean_deliveries_mean_diff     0.1559      0.292      0.534      0.622      -0.655       0.967
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.222
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.691
+Skew:                           0.489   Prob(JB):                        0.708
+Kurtosis:                       1.655   Cond. No.                         2.93
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 7
+     Mehmet S. Kutuk 2018 [Placenta left in situ (Group 2)]
+     Mehmet S. Kutuk 2018 [Placental removal and conservative surgery (Group 3)]
+     Hüseyin Durukan 2021 [Group B: Bakri balloon application without resection]
+     Hüseyin Durukan 2021 [Group R: segmental uterine resection]
+     Talip Karaçor 2021 [Uterus-sparing surgery ]
+     Man Y. Chung 2013 [Extirpative approach (manual removal of the adherent placenta during cesarean section)]
+     Man Y. Chung 2013 [Placenta In Situ (the placenta is deliberately left in place during cesarean section, and uterine artery embolization (UAE) is performed postoperatively)]
+
+
+                                GLS Regression Results                               
+=====================================================================================
+Dep. Variable:     duration_of_icu_stay_days   R-squared:                         nan
+Model:                                   GLS   Adj. R-squared:                    nan
+Method:                        Least Squares   F-statistic:                       nan
+Date:                       Sat, 03 Aug 2024   Prob (F-statistic):                nan
+Time:                               15:06:37   Log-Likelihood:                    inf
+No. Observations:                          3   AIC:                              -inf
+Df Residuals:                              1   BIC:                              -inf
+Df Model:                                  1                                         
+Covariance Type:                   nonrobust                                         
+=========================================================================================
+                            coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------
+Intercept                      0          0        nan        nan           0           0
+d_c_history_mean_diff          0          0        nan        nan           0           0
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                     nan
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                  nan
+Skew:                             nan   Prob(JB):                          nan
+Kurtosis:                         nan   Cond. No.                         4.37
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 4
+     Mehmet S. Kutuk 2018 [Placenta left in situ (Group 2)]
+     Mehmet S. Kutuk 2018 [Placental removal and conservative surgery (Group 3)]
+     Man Y. Chung 2013 [Extirpative approach (manual removal of the adherent placenta during cesarean section)]
+     Man Y. Chung 2013 [Placenta In Situ (the placenta is deliberately left in place during cesarean section, and uterine artery embolization (UAE) is performed postoperatively)]
+
+
+                                GLS Regression Results                               
+=====================================================================================
+Dep. Variable:     duration_of_icu_stay_days   R-squared:                       0.983
+Model:                                   GLS   Adj. R-squared:                  0.974
+Method:                        Least Squares   F-statistic:                     115.5
+Date:                       Sat, 03 Aug 2024   Prob (F-statistic):            0.00855
+Time:                               15:06:37   Log-Likelihood:                 7.1674
+No. Observations:                          4   AIC:                            -10.33
+Df Residuals:                              2   BIC:                            -11.56
+Df Model:                                  1                                         
+Covariance Type:                   nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+Intercept                0.0265      0.036      0.740      0.536      -0.127       0.180
+accreta_percent_diff     0.0122      0.086      0.142      0.900      -0.357       0.382
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   2.471
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.915
+Skew:                           1.120   Prob(JB):                        0.633
+Kurtosis:                       2.309   Cond. No.                         3.22
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 5
+     Mehmet S. Kutuk 2018 [Placenta left in situ (Group 2)]
+     Mehmet S. Kutuk 2018 [Placental removal and conservative surgery (Group 3)]
+     Talip Karaçor 2021 [Uterus-sparing surgery ]
+     Man Y. Chung 2013 [Extirpative approach (manual removal of the adherent placenta during cesarean section)]
+     Man Y. Chung 2013 [Placenta In Situ (the placenta is deliberately left in place during cesarean section, and uterine artery embolization (UAE) is performed postoperatively)]
+
+
+                                GLS Regression Results                               
+=====================================================================================
+Dep. Variable:     duration_of_icu_stay_days   R-squared:                       0.998
+Model:                                   GLS   Adj. R-squared:                  0.996
+Method:                        Least Squares   F-statistic:                     845.8
+Date:                       Sat, 03 Aug 2024   Prob (F-statistic):            0.00118
+Time:                               15:06:37   Log-Likelihood:                 11.120
+No. Observations:                          4   AIC:                            -18.24
+Df Residuals:                              2   BIC:                            -19.47
+Df Model:                                  1                                         
+Covariance Type:                   nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+Intercept                0.0637      0.016      4.096      0.055      -0.003       0.131
+increta_percent_diff    -0.2212      0.062     -3.546      0.071      -0.490       0.047
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   0.973
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.501
+Skew:                           0.083   Prob(JB):                        0.779
+Kurtosis:                       1.275   Cond. No.                         6.08
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 5
+     Mehmet S. Kutuk 2018 [Placenta left in situ (Group 2)]
+     Mehmet S. Kutuk 2018 [Placental removal and conservative surgery (Group 3)]
+     Talip Karaçor 2021 [Uterus-sparing surgery ]
+     Man Y. Chung 2013 [Extirpative approach (manual removal of the adherent placenta during cesarean section)]
+     Man Y. Chung 2013 [Placenta In Situ (the placenta is deliberately left in place during cesarean section, and uterine artery embolization (UAE) is performed postoperatively)]
+
+
+                                GLS Regression Results                               
+=====================================================================================
+Dep. Variable:     duration_of_icu_stay_days   R-squared:                       0.985
+Model:                                   GLS   Adj. R-squared:                  0.978
+Method:                        Least Squares   F-statistic:                     134.3
+Date:                       Sat, 03 Aug 2024   Prob (F-statistic):            0.00737
+Time:                               15:06:37   Log-Likelihood:                 7.4641
+No. Observations:                          4   AIC:                            -10.93
+Df Residuals:                              2   BIC:                            -12.16
+Df Model:                                  1                                         
+Covariance Type:                   nonrobust                                         
+=========================================================================================
+                            coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------
+Intercept                 0.0201      0.027      0.745      0.534      -0.096       0.137
+percreta_percent_diff     0.0475      0.081      0.586      0.617      -0.301       0.396
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   3.207
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.551
+Skew:                           0.722   Prob(JB):                        0.759
+Kurtosis:                       1.895   Cond. No.                         3.08
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 5
+     Mehmet S. Kutuk 2018 [Placenta left in situ (Group 2)]
+     Mehmet S. Kutuk 2018 [Placental removal and conservative surgery (Group 3)]
+     Talip Karaçor 2021 [Uterus-sparing surgery ]
+     Man Y. Chung 2013 [Extirpative approach (manual removal of the adherent placenta during cesarean section)]
+     Man Y. Chung 2013 [Placenta In Situ (the placenta is deliberately left in place during cesarean section, and uterine artery embolization (UAE) is performed postoperatively)]
+
+
+                                GLS Regression Results                               
+=====================================================================================
+Dep. Variable:     duration_of_icu_stay_days   R-squared:                       0.984
+Model:                                   GLS   Adj. R-squared:                  0.976
+Method:                        Least Squares   F-statistic:                     121.6
+Date:                       Sat, 03 Aug 2024   Prob (F-statistic):            0.00812
+Time:                               15:06:37   Log-Likelihood:              -0.023631
+No. Observations:                          4   AIC:                             4.047
+Df Residuals:                              2   BIC:                             2.820
+Df Model:                                  1                                         
+Covariance Type:                   nonrobust                                         
+==============================================================================================================
+                                                 coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------------
+Intercept                                      0.2731      0.184      1.482      0.277      -0.520       1.066
+gestational_age_at_delivery_week_mean_diff    -0.0136      0.155     -0.088      0.938      -0.679       0.652
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   0.670
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.511
+Skew:                           0.192   Prob(JB):                        0.774
+Kurtosis:                       1.291   Cond. No.                         1.51
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 5
+     Hüseyin Durukan 2021 [Group B: Bakri balloon application without resection]
+     Hüseyin Durukan 2021 [Group R: segmental uterine resection]
+     Talip Karaçor 2021 [Uterus-sparing surgery ]
+     Man Y. Chung 2013 [Extirpative approach (manual removal of the adherent placenta during cesarean section)]
+     Man Y. Chung 2013 [Placenta In Situ (the placenta is deliberately left in place during cesarean section, and uterine artery embolization (UAE) is performed postoperatively)]
+
+

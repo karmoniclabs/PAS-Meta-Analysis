@@ -1,0 +1,62 @@
+                                  GLS Regression Results                                  
+==========================================================================================
+Dep. Variable:     neonatal_outcome_birthweight_g   R-squared:                       0.993
+Model:                                        GLS   Adj. R-squared:                  0.986
+Method:                             Least Squares   F-statistic:                     147.0
+Date:                            Sat, 03 Aug 2024   Prob (F-statistic):             0.0524
+Time:                                    15:06:23   Log-Likelihood:                -3.1123
+No. Observations:                               3   AIC:                             10.22
+Df Residuals:                                   1   BIC:                             8.422
+Df Model:                                       1                                         
+Covariance Type:                        nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+Intercept        -0.8103      0.701     -1.156      0.454      -9.713       8.093
+age_mean_diff    -0.0707      0.312     -0.227      0.858      -4.037       3.895
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   2.532
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.282
+Skew:                          -0.040   Prob(JB):                        0.868
+Kurtosis:                       1.500   Cond. No.                         2.33
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 3
+     Afia Ansar 2014 [Placenta left in situ, Cesarean vs. Interval hysterectomy]
+     Alina Weissmann-Brenner 2024 [Conservative management included leaving uterus in situ with/without placenta and with/without myometrial resection.]
+     Emin Üstünyurt 2020 [Local uterine resection with Bakri balloon placement]
+
+
+                                  GLS Regression Results                                  
+==========================================================================================
+Dep. Variable:     neonatal_outcome_birthweight_g   R-squared:                       0.996
+Model:                                        GLS   Adj. R-squared:                  0.991
+Method:                             Least Squares   F-statistic:                     225.5
+Date:                            Sat, 03 Aug 2024   Prob (F-statistic):             0.0423
+Time:                                    15:06:23   Log-Likelihood:                -2.4741
+No. Observations:                               3   AIC:                             8.948
+Df Residuals:                                   1   BIC:                             7.145
+Df Model:                                       1                                         
+Covariance Type:                        nonrobust                                         
+==========================================================================================================
+                                             coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------------
+Intercept                                 -0.6549      0.604     -1.085      0.474      -8.327       7.017
+previous_cesarean_deliveries_mean_diff    -0.6846      0.877     -0.780      0.578     -11.832      10.463
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.687
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.508
+Skew:                           0.674   Prob(JB):                        0.776
+Kurtosis:                       1.500   Cond. No.                         1.78
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 3
+     Afia Ansar 2014 [Placenta left in situ, Cesarean vs. Interval hysterectomy]
+     Alina Weissmann-Brenner 2024 [Conservative management included leaving uterus in situ with/without placenta and with/without myometrial resection.]
+     Emin Üstünyurt 2020 [Local uterine resection with Bakri balloon placement]
+
+

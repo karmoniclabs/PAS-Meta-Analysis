@@ -1,0 +1,398 @@
+                              GLS Regression Results                             
+=================================================================================
+Dep. Variable:     major_artery_ligation   R-squared:                       0.683
+Model:                               GLS   Adj. R-squared:                  0.651
+Method:                    Least Squares   F-statistic:                     21.56
+Date:                   Sat, 03 Aug 2024   Prob (F-statistic):           0.000918
+Time:                           15:06:32   Log-Likelihood:                -17.529
+No. Observations:                     12   AIC:                             39.06
+Df Residuals:                         10   BIC:                             40.03
+Df Model:                              1                                         
+Covariance Type:               nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+Intercept        -0.1085      0.395     -0.275      0.789      -0.989       0.772
+age_mean_diff     0.2125      0.218      0.973      0.354      -0.274       0.699
+==============================================================================
+Omnibus:                        1.455   Durbin-Watson:                   2.103
+Prob(Omnibus):                  0.483   Jarque-Bera (JB):                0.911
+Skew:                          -0.638   Prob(JB):                        0.634
+Kurtosis:                       2.561   Cond. No.                         2.41
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 12
+     Afia Ansar 2014 [Placenta left in situ, Cesarean vs. Interval hysterectomy]
+     Mehmet S. Kutuk 2018 [Placenta left in situ (Group 2)]
+     Mehmet S. Kutuk 2018 [Placental removal and conservative surgery (Group 3)]
+     Anh Dinh Bao Vuong 2023 [Modified one-step conservative uterine surgery, (MOSCUS)]
+     Hüseyin Durukan 2021 [Group B: Bakri balloon application without resection]
+     Hüseyin Durukan 2021 [Group R: segmental uterine resection]
+     Cetin Kilicci 2018 [Modified form of segmental resection ]
+     Talip Karaçor 2021 [Uterus-sparing surgery ]
+     Qianyun Wang 2022 [One-step conservative surgery (most common)]
+     Shahul Hameed Mohamed Siraj 2023 [Myometrial Repair, (Technique details included in article)]
+     Emin Üstünyurt 2020 [Local uterine resection with Bakri balloon placement]
+     Alexander Paping 2024 [Focal resection]
+
+
+                              GLS Regression Results                             
+=================================================================================
+Dep. Variable:     major_artery_ligation   R-squared:                       0.648
+Model:                               GLS   Adj. R-squared:                  0.604
+Method:                    Least Squares   F-statistic:                     14.71
+Date:                   Sat, 03 Aug 2024   Prob (F-statistic):            0.00498
+Time:                           15:06:32   Log-Likelihood:                -15.748
+No. Observations:                     10   AIC:                             35.50
+Df Residuals:                          8   BIC:                             36.10
+Df Model:                              1                                         
+Covariance Type:               nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+Intercept            0.0516      0.443      0.117      0.910      -0.969       1.072
+parity_mean_diff     0.3131      0.563      0.556      0.593      -0.985       1.612
+==============================================================================
+Omnibus:                        1.075   Durbin-Watson:                   2.297
+Prob(Omnibus):                  0.584   Jarque-Bera (JB):                0.759
+Skew:                          -0.358   Prob(JB):                        0.684
+Kurtosis:                       1.856   Cond. No.                         1.57
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 10
+     Afia Ansar 2014 [Placenta left in situ, Cesarean vs. Interval hysterectomy]
+     Mehmet S. Kutuk 2018 [Placenta left in situ (Group 2)]
+     Mehmet S. Kutuk 2018 [Placental removal and conservative surgery (Group 3)]
+     Anh Dinh Bao Vuong 2023 [Modified one-step conservative uterine surgery, (MOSCUS)]
+     Hüseyin Durukan 2021 [Group B: Bakri balloon application without resection]
+     Hüseyin Durukan 2021 [Group R: segmental uterine resection]
+     Cetin Kilicci 2018 [Modified form of segmental resection ]
+     Talip Karaçor 2021 [Uterus-sparing surgery ]
+     Emin Üstünyurt 2020 [Local uterine resection with Bakri balloon placement]
+     Alexander Paping 2024 [Focal resection]
+
+
+                              GLS Regression Results                             
+=================================================================================
+Dep. Variable:     major_artery_ligation   R-squared:                       0.704
+Model:                               GLS   Adj. R-squared:                  0.671
+Method:                    Least Squares   F-statistic:                     21.43
+Date:                   Sat, 03 Aug 2024   Prob (F-statistic):            0.00124
+Time:                           15:06:32   Log-Likelihood:                -15.859
+No. Observations:                     11   AIC:                             35.72
+Df Residuals:                          9   BIC:                             36.51
+Df Model:                              1                                         
+Covariance Type:               nonrobust                                         
+==========================================================================================================
+                                             coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------------
+Intercept                                 -0.1509      0.391     -0.386      0.709      -1.036       0.734
+previous_cesarean_deliveries_mean_diff     1.0709      0.738      1.451      0.181      -0.599       2.741
+==============================================================================
+Omnibus:                        0.214   Durbin-Watson:                   1.590
+Prob(Omnibus):                  0.898   Jarque-Bera (JB):                0.390
+Skew:                          -0.132   Prob(JB):                        0.823
+Kurtosis:                       2.116   Cond. No.                         2.35
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 11
+     Afia Ansar 2014 [Placenta left in situ, Cesarean vs. Interval hysterectomy]
+     Mehmet S. Kutuk 2018 [Placenta left in situ (Group 2)]
+     Mehmet S. Kutuk 2018 [Placental removal and conservative surgery (Group 3)]
+     Anh Dinh Bao Vuong 2023 [Modified one-step conservative uterine surgery, (MOSCUS)]
+     Hüseyin Durukan 2021 [Group B: Bakri balloon application without resection]
+     Hüseyin Durukan 2021 [Group R: segmental uterine resection]
+     Cetin Kilicci 2018 [Modified form of segmental resection ]
+     Talip Karaçor 2021 [Uterus-sparing surgery ]
+     Shahul Hameed Mohamed Siraj 2023 [Myometrial Repair, (Technique details included in article)]
+     Emin Üstünyurt 2020 [Local uterine resection with Bakri balloon placement]
+     Alexander Paping 2024 [Focal resection]
+
+
+                              GLS Regression Results                             
+=================================================================================
+Dep. Variable:     major_artery_ligation   R-squared:                       0.715
+Model:                               GLS   Adj. R-squared:                  0.644
+Method:                    Least Squares   F-statistic:                     10.05
+Date:                   Sat, 03 Aug 2024   Prob (F-statistic):             0.0339
+Time:                           15:06:32   Log-Likelihood:                -6.7056
+No. Observations:                      6   AIC:                             17.41
+Df Residuals:                          4   BIC:                             16.99
+Df Model:                              1                                         
+Covariance Type:               nonrobust                                         
+================================================================================================
+                                   coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------------
+Intercept                       -0.6012      0.406     -1.481      0.213      -1.728       0.526
+placenta_previa_percent_diff     5.4517      3.900      1.398      0.235      -5.377      16.280
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   2.971
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.663
+Skew:                          -0.342   Prob(JB):                        0.718
+Kurtosis:                       1.522   Cond. No.                         10.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 6
+     Afia Ansar 2014 [Placenta left in situ, Cesarean vs. Interval hysterectomy]
+     Anh Dinh Bao Vuong 2023 [Modified one-step conservative uterine surgery, (MOSCUS)]
+     Talip Karaçor 2021 [Uterus-sparing surgery ]
+     Qianyun Wang 2022 [One-step conservative surgery (most common)]
+     Shahul Hameed Mohamed Siraj 2023 [Myometrial Repair, (Technique details included in article)]
+     Alexander Paping 2024 [Focal resection]
+
+
+                              GLS Regression Results                             
+=================================================================================
+Dep. Variable:     major_artery_ligation   R-squared:                       0.846
+Model:                               GLS   Adj. R-squared:                  0.815
+Method:                    Least Squares   F-statistic:                     27.38
+Date:                   Sat, 03 Aug 2024   Prob (F-statistic):            0.00337
+Time:                           15:06:32   Log-Likelihood:                -8.4247
+No. Observations:                      7   AIC:                             20.85
+Df Residuals:                          5   BIC:                             20.74
+Df Model:                              1                                         
+Covariance Type:               nonrobust                                         
+==============================================================================================================
+                                                 coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------------
+Intercept                                      1.0208      0.525      1.944      0.109      -0.329       2.370
+gestational_age_at_delivery_week_mean_diff     1.0796      0.427      2.530      0.053      -0.017       2.176
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.935
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.505
+Skew:                          -0.375   Prob(JB):                        0.777
+Kurtosis:                       1.919   Cond. No.                         2.59
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 7
+     Afia Ansar 2014 [Placenta left in situ, Cesarean vs. Interval hysterectomy]
+     Hüseyin Durukan 2021 [Group B: Bakri balloon application without resection]
+     Hüseyin Durukan 2021 [Group R: segmental uterine resection]
+     Cetin Kilicci 2018 [Modified form of segmental resection ]
+     Talip Karaçor 2021 [Uterus-sparing surgery ]
+     Shahul Hameed Mohamed Siraj 2023 [Myometrial Repair, (Technique details included in article)]
+     Alexander Paping 2024 [Focal resection]
+
+
+                              GLS Regression Results                             
+=================================================================================
+Dep. Variable:     major_artery_ligation   R-squared:                       0.641
+Model:                               GLS   Adj. R-squared:                  0.590
+Method:                    Least Squares   F-statistic:                     12.52
+Date:                   Sat, 03 Aug 2024   Prob (F-statistic):            0.00949
+Time:                           15:06:32   Log-Likelihood:                -12.178
+No. Observations:                      9   AIC:                             28.36
+Df Residuals:                          7   BIC:                             28.75
+Df Model:                              1                                         
+Covariance Type:               nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+Intercept               -0.1350      0.356     -0.379      0.716      -0.978       0.708
+accreta_percent_diff     1.9383      1.707      1.136      0.293      -2.098       5.974
+==============================================================================
+Omnibus:                        1.195   Durbin-Watson:                   1.646
+Prob(Omnibus):                  0.550   Jarque-Bera (JB):                0.778
+Skew:                          -0.635   Prob(JB):                        0.678
+Kurtosis:                       2.319   Cond. No.                         4.83
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 9
+     Afia Ansar 2014 [Placenta left in situ, Cesarean vs. Interval hysterectomy]
+     Mehmet S. Kutuk 2018 [Placenta left in situ (Group 2)]
+     Mehmet S. Kutuk 2018 [Placental removal and conservative surgery (Group 3)]
+     Anh Dinh Bao Vuong 2023 [Modified one-step conservative uterine surgery, (MOSCUS)]
+     Cetin Kilicci 2018 [Modified form of segmental resection ]
+     Talip Karaçor 2021 [Uterus-sparing surgery ]
+     Shahul Hameed Mohamed Siraj 2023 [Myometrial Repair, (Technique details included in article)]
+     Emin Üstünyurt 2020 [Local uterine resection with Bakri balloon placement]
+     Alexander Paping 2024 [Focal resection]
+
+
+                              GLS Regression Results                             
+=================================================================================
+Dep. Variable:     major_artery_ligation   R-squared:                       0.575
+Model:                               GLS   Adj. R-squared:                  0.522
+Method:                    Least Squares   F-statistic:                     10.84
+Date:                   Sat, 03 Aug 2024   Prob (F-statistic):             0.0110
+Time:                           15:06:32   Log-Likelihood:                -13.849
+No. Observations:                     10   AIC:                             31.70
+Df Residuals:                          8   BIC:                             32.30
+Df Model:                              1                                         
+Covariance Type:               nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+Intercept               -0.1777      0.355     -0.500      0.630      -0.997       0.642
+increta_percent_diff     0.0779      2.202      0.035      0.973      -4.999       5.155
+==============================================================================
+Omnibus:                        1.487   Durbin-Watson:                   2.318
+Prob(Omnibus):                  0.476   Jarque-Bera (JB):                0.801
+Skew:                          -0.260   Prob(JB):                        0.670
+Kurtosis:                       1.714   Cond. No.                         6.46
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 10
+     Afia Ansar 2014 [Placenta left in situ, Cesarean vs. Interval hysterectomy]
+     Mehmet S. Kutuk 2018 [Placenta left in situ (Group 2)]
+     Mehmet S. Kutuk 2018 [Placental removal and conservative surgery (Group 3)]
+     Anh Dinh Bao Vuong 2023 [Modified one-step conservative uterine surgery, (MOSCUS)]
+     Cetin Kilicci 2018 [Modified form of segmental resection ]
+     Talip Karaçor 2021 [Uterus-sparing surgery ]
+     Qianyun Wang 2022 [One-step conservative surgery (most common)]
+     Shahul Hameed Mohamed Siraj 2023 [Myometrial Repair, (Technique details included in article)]
+     Emin Üstünyurt 2020 [Local uterine resection with Bakri balloon placement]
+     Alexander Paping 2024 [Focal resection]
+
+
+                              GLS Regression Results                             
+=================================================================================
+Dep. Variable:     major_artery_ligation   R-squared:                       0.625
+Model:                               GLS   Adj. R-squared:                  0.578
+Method:                    Least Squares   F-statistic:                     13.33
+Date:                   Sat, 03 Aug 2024   Prob (F-statistic):            0.00649
+Time:                           15:06:32   Log-Likelihood:                -13.229
+No. Observations:                     10   AIC:                             30.46
+Df Residuals:                          8   BIC:                             31.06
+Df Model:                              1                                         
+Covariance Type:               nonrobust                                         
+=========================================================================================
+                            coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------
+Intercept                -0.1027      0.330     -0.311      0.764      -0.864       0.659
+percreta_percent_diff    -1.4092      1.370     -1.028      0.334      -4.570       1.751
+==============================================================================
+Omnibus:                        1.180   Durbin-Watson:                   1.772
+Prob(Omnibus):                  0.554   Jarque-Bera (JB):                0.765
+Skew:                          -0.319   Prob(JB):                        0.682
+Kurtosis:                       1.805   Cond. No.                         4.28
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 10
+     Afia Ansar 2014 [Placenta left in situ, Cesarean vs. Interval hysterectomy]
+     Mehmet S. Kutuk 2018 [Placenta left in situ (Group 2)]
+     Mehmet S. Kutuk 2018 [Placental removal and conservative surgery (Group 3)]
+     Anh Dinh Bao Vuong 2023 [Modified one-step conservative uterine surgery, (MOSCUS)]
+     Cetin Kilicci 2018 [Modified form of segmental resection ]
+     Talip Karaçor 2021 [Uterus-sparing surgery ]
+     Qianyun Wang 2022 [One-step conservative surgery (most common)]
+     Shahul Hameed Mohamed Siraj 2023 [Myometrial Repair, (Technique details included in article)]
+     Emin Üstünyurt 2020 [Local uterine resection with Bakri balloon placement]
+     Alexander Paping 2024 [Focal resection]
+
+
+                              GLS Regression Results                             
+=================================================================================
+Dep. Variable:     major_artery_ligation   R-squared:                       0.592
+Model:                               GLS   Adj. R-squared:                  0.456
+Method:                    Least Squares   F-statistic:                     4.350
+Date:                   Sat, 03 Aug 2024   Prob (F-statistic):              0.128
+Time:                           15:06:32   Log-Likelihood:                -6.3958
+No. Observations:                      5   AIC:                             16.79
+Df Residuals:                          3   BIC:                             16.01
+Df Model:                              1                                         
+Covariance Type:               nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+Intercept         0.1792      0.867      0.207      0.849      -2.580       2.938
+bmi_mean_diff     0.0145      0.442      0.033      0.976      -1.391       1.420
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   2.636
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.495
+Skew:                          -0.683   Prob(JB):                        0.781
+Kurtosis:                       2.286   Cond. No.                         4.02
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 5
+     Mehmet S. Kutuk 2018 [Placenta left in situ (Group 2)]
+     Mehmet S. Kutuk 2018 [Placental removal and conservative surgery (Group 3)]
+     Anh Dinh Bao Vuong 2023 [Modified one-step conservative uterine surgery, (MOSCUS)]
+     Shahul Hameed Mohamed Siraj 2023 [Myometrial Repair, (Technique details included in article)]
+     Emin Üstünyurt 2020 [Local uterine resection with Bakri balloon placement]
+
+
+                              GLS Regression Results                             
+=================================================================================
+Dep. Variable:     major_artery_ligation   R-squared:                       0.741
+Model:                               GLS   Adj. R-squared:                  0.689
+Method:                    Least Squares   F-statistic:                     14.28
+Date:                   Sat, 03 Aug 2024   Prob (F-statistic):             0.0129
+Time:                           15:06:32   Log-Likelihood:                -10.929
+No. Observations:                      7   AIC:                             25.86
+Df Residuals:                          5   BIC:                             25.75
+Df Model:                              1                                         
+Covariance Type:               nonrobust                                         
+=======================================================================================
+                          coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+Intercept               0.1123      0.535      0.210      0.842      -1.264       1.489
+gravidity_mean_diff     0.4635      0.481      0.965      0.379      -0.772       1.699
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   2.033
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.765
+Skew:                          -0.758   Prob(JB):                        0.682
+Kurtosis:                       2.427   Cond. No.                         1.35
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 7
+     Mehmet S. Kutuk 2018 [Placenta left in situ (Group 2)]
+     Mehmet S. Kutuk 2018 [Placental removal and conservative surgery (Group 3)]
+     Hüseyin Durukan 2021 [Group B: Bakri balloon application without resection]
+     Hüseyin Durukan 2021 [Group R: segmental uterine resection]
+     Cetin Kilicci 2018 [Modified form of segmental resection ]
+     Talip Karaçor 2021 [Uterus-sparing surgery ]
+     Alexander Paping 2024 [Focal resection]
+
+
+                              GLS Regression Results                             
+=================================================================================
+Dep. Variable:     major_artery_ligation   R-squared:                       0.583
+Model:                               GLS   Adj. R-squared:                  0.165
+Method:                    Least Squares   F-statistic:                     1.396
+Date:                   Sat, 03 Aug 2024   Prob (F-statistic):              0.447
+Time:                           15:06:32   Log-Likelihood:                -4.3768
+No. Observations:                      3   AIC:                             12.75
+Df Residuals:                          1   BIC:                             10.95
+Df Model:                              1                                         
+Covariance Type:               nonrobust                                         
+=========================================================================================
+                            coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------
+Intercept                -0.0509      1.275     -0.040      0.975     -16.248      16.146
+d_c_history_mean_diff     2.1866     12.988      0.168      0.894    -162.836     167.209
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   2.500
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.281
+Skew:                           0.000   Prob(JB):                        0.869
+Kurtosis:                       1.500   Cond. No.                         12.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 3
+     Mehmet S. Kutuk 2018 [Placenta left in situ (Group 2)]
+     Mehmet S. Kutuk 2018 [Placental removal and conservative surgery (Group 3)]
+     Anh Dinh Bao Vuong 2023 [Modified one-step conservative uterine surgery, (MOSCUS)]
+
+

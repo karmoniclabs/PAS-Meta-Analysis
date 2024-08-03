@@ -1,0 +1,187 @@
+                                      GLS Regression Results                                      
+==================================================================================================
+Dep. Variable:     any_transfusion_of_fresh_frozen_plasma   R-squared:                       0.943
+Model:                                                GLS   Adj. R-squared:                  0.915
+Method:                                     Least Squares   F-statistic:                     33.16
+Date:                                    Sat, 03 Aug 2024   Prob (F-statistic):             0.0289
+Time:                                            15:06:40   Log-Likelihood:                -1.6996
+No. Observations:                                       4   AIC:                             7.399
+Df Residuals:                                           2   BIC:                             6.172
+Df Model:                                               1                                         
+Covariance Type:                                nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+Intercept         0.2354      0.341      0.690      0.561      -1.231       1.702
+age_mean_diff     0.6797      0.241      2.816      0.106      -0.359       1.718
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   2.442
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.244
+Skew:                          -0.079   Prob(JB):                        0.885
+Kurtosis:                       1.799   Cond. No.                         2.33
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 4
+     Anh Dinh Bao Vuong 2023 [Modified one-step conservative uterine surgery, (MOSCUS)]
+     Loïc Sentilhes 2022 [Leaving the Placenta In Situ (Partially or totally)]
+     Alina Weissmann-Brenner 2024 [Conservative management included leaving uterus in situ with/without placenta and with/without myometrial resection.]
+     Razieh Mohammad Jafari 2022 [removal of the lower segment only, or removal of the lower segment with uterine artery ligation, or removal of the lower segment with hypogastric artery ligation)]
+
+
+                                      GLS Regression Results                                      
+==================================================================================================
+Dep. Variable:     any_transfusion_of_fresh_frozen_plasma   R-squared:                       0.956
+Model:                                                GLS   Adj. R-squared:                  0.913
+Method:                                     Least Squares   F-statistic:                     21.88
+Date:                                    Sat, 03 Aug 2024   Prob (F-statistic):              0.134
+Time:                                            15:06:40   Log-Likelihood:               -0.81417
+No. Observations:                                       3   AIC:                             5.628
+Df Residuals:                                           1   BIC:                             3.826
+Df Model:                                               1                                         
+Covariance Type:                                nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+Intercept         2.1603      0.767      2.817      0.217      -7.585      11.906
+bmi_mean_diff    -0.9117      0.698     -1.306      0.416      -9.783       7.960
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.258
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.480
+Skew:                          -0.631   Prob(JB):                        0.787
+Kurtosis:                       1.500   Cond. No.                         4.64
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 3
+     Anh Dinh Bao Vuong 2023 [Modified one-step conservative uterine surgery, (MOSCUS)]
+     Loïc Sentilhes 2022 [Leaving the Placenta In Situ (Partially or totally)]
+     Alina Weissmann-Brenner 2024 [Conservative management included leaving uterus in situ with/without placenta and with/without myometrial resection.]
+
+
+                                      GLS Regression Results                                      
+==================================================================================================
+Dep. Variable:     any_transfusion_of_fresh_frozen_plasma   R-squared:                       0.882
+Model:                                                GLS   Adj. R-squared:                  0.764
+Method:                                     Least Squares   F-statistic:                     7.486
+Date:                                    Sat, 03 Aug 2024   Prob (F-statistic):              0.223
+Time:                                            15:06:40   Log-Likelihood:                -2.3022
+No. Observations:                                       3   AIC:                             8.604
+Df Residuals:                                           1   BIC:                             6.802
+Df Model:                                               1                                         
+Covariance Type:                                nonrobust                                         
+==========================================================================================================
+                                             coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------------
+Intercept                                  1.2338      0.585      2.109      0.282      -6.199       8.666
+previous_cesarean_deliveries_mean_diff     0.0542      0.971      0.056      0.965     -12.285      12.393
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   2.896
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.430
+Skew:                           0.545   Prob(JB):                        0.807
+Kurtosis:                       1.500   Cond. No.                         2.05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 3
+     Anh Dinh Bao Vuong 2023 [Modified one-step conservative uterine surgery, (MOSCUS)]
+     Loïc Sentilhes 2022 [Leaving the Placenta In Situ (Partially or totally)]
+     Alina Weissmann-Brenner 2024 [Conservative management included leaving uterus in situ with/without placenta and with/without myometrial resection.]
+
+
+                                      GLS Regression Results                                      
+==================================================================================================
+Dep. Variable:     any_transfusion_of_fresh_frozen_plasma   R-squared:                       0.994
+Model:                                                GLS   Adj. R-squared:                  0.989
+Method:                                     Least Squares   F-statistic:                     175.6
+Date:                                    Sat, 03 Aug 2024   Prob (F-statistic):             0.0479
+Time:                                            15:06:40   Log-Likelihood:                 2.2513
+No. Observations:                                       3   AIC:                           -0.5026
+Df Residuals:                                           1   BIC:                            -2.305
+Df Model:                                               1                                         
+Covariance Type:                                nonrobust                                         
+================================================================================================
+                                   coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------------
+Intercept                        0.8078      0.151      5.347      0.118      -1.112       2.727
+placenta_previa_percent_diff    17.3684      3.895      4.459      0.140     -32.128      66.865
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.009
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.291
+Skew:                           0.138   Prob(JB):                        0.865
+Kurtosis:                       1.500   Cond. No.                         34.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 3
+     Anh Dinh Bao Vuong 2023 [Modified one-step conservative uterine surgery, (MOSCUS)]
+     Loïc Sentilhes 2022 [Leaving the Placenta In Situ (Partially or totally)]
+     Alina Weissmann-Brenner 2024 [Conservative management included leaving uterus in situ with/without placenta and with/without myometrial resection.]
+
+
+                                      GLS Regression Results                                      
+==================================================================================================
+Dep. Variable:     any_transfusion_of_fresh_frozen_plasma   R-squared:                       0.630
+Model:                                                GLS   Adj. R-squared:                  0.260
+Method:                                     Least Squares   F-statistic:                     1.703
+Date:                                    Sat, 03 Aug 2024   Prob (F-statistic):              0.416
+Time:                                            15:06:40   Log-Likelihood:                -4.0138
+No. Observations:                                       3   AIC:                             12.03
+Df Residuals:                                           1   BIC:                             10.22
+Df Model:                                               1                                         
+Covariance Type:                                nonrobust                                         
+============================================================================================
+                               coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------
+Intercept                    1.0558      1.143      0.924      0.525     -13.462      15.574
+d_c_history_percent_diff     2.8037     11.837      0.237      0.852    -147.600     153.207
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.019
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.303
+Skew:                           0.206   Prob(JB):                        0.860
+Kurtosis:                       1.500   Cond. No.                         12.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 3
+     Loïc Sentilhes 2022 [Leaving the Placenta In Situ (Partially or totally)]
+     Alina Weissmann-Brenner 2024 [Conservative management included leaving uterus in situ with/without placenta and with/without myometrial resection.]
+     Razieh Mohammad Jafari 2022 [removal of the lower segment only, or removal of the lower segment with uterine artery ligation, or removal of the lower segment with hypogastric artery ligation)]
+
+
+                                      GLS Regression Results                                      
+==================================================================================================
+Dep. Variable:     any_transfusion_of_fresh_frozen_plasma   R-squared:                       0.972
+Model:                                                GLS   Adj. R-squared:                  0.945
+Method:                                     Least Squares   F-statistic:                     35.18
+Date:                                    Sat, 03 Aug 2024   Prob (F-statistic):              0.106
+Time:                                            15:06:40   Log-Likelihood:               -0.12254
+No. Observations:                                       3   AIC:                             4.245
+Df Residuals:                                           1   BIC:                             2.442
+Df Model:                                               1                                         
+Covariance Type:                                nonrobust                                         
+===========================================================================================
+                              coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------
+Intercept                  -0.1255      0.378     -0.332      0.796      -4.930       4.679
+myomectomy_percent_diff   164.2046     45.305      3.624      0.171    -411.452     739.861
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   2.964
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.492
+Skew:                           0.650   Prob(JB):                        0.782
+Kurtosis:                       1.500   Cond. No.                         180.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 3
+     Loïc Sentilhes 2022 [Leaving the Placenta In Situ (Partially or totally)]
+     Alina Weissmann-Brenner 2024 [Conservative management included leaving uterus in situ with/without placenta and with/without myometrial resection.]
+     Razieh Mohammad Jafari 2022 [removal of the lower segment only, or removal of the lower segment with uterine artery ligation, or removal of the lower segment with hypogastric artery ligation)]
+
+

@@ -1,0 +1,191 @@
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:              infection   R-squared:                      -0.105
+Model:                            GLS   Adj. R-squared:                 -0.473
+Method:                 Least Squares   F-statistic:                   -0.2848
+Date:                Sat, 03 Aug 2024   Prob (F-statistic):               1.00
+Time:                        15:06:23   Log-Likelihood:                -6.1939
+No. Observations:                   5   AIC:                             16.39
+Df Residuals:                       3   BIC:                             15.61
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+Intercept        -0.5831      0.498     -1.170      0.326      -2.169       1.002
+age_mean_diff     0.0821      0.234      0.351      0.749      -0.662       0.826
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.343
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                1.496
+Skew:                          -1.340   Prob(JB):                        0.473
+Kurtosis:                       3.041   Cond. No.                         2.24
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 5
+     Anh Dinh Bao Vuong 2023 [Modified one-step conservative uterine surgery, (MOSCUS)]
+     Alina Weissmann-Brenner 2024 [Conservative management included leaving uterus in situ with/without placenta and with/without myometrial resection.]
+     Grzegorz H. Breborowicz 2013 [Placenta In Situ, (According to our conservative protocol placenta were left in uterus after the delivery of the fetus.)]
+     Emin Üstünyurt 2020 [Local uterine resection with Bakri balloon placement]
+     Dr Humeera Naz 2024 [myometrial excision]
+
+
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:              infection   R-squared:                       0.016
+Model:                            GLS   Adj. R-squared:                 -0.969
+Method:                 Least Squares   F-statistic:                   0.01592
+Date:                Sat, 03 Aug 2024   Prob (F-statistic):              0.920
+Time:                        15:06:23   Log-Likelihood:                -4.1565
+No. Observations:                   3   AIC:                             12.31
+Df Residuals:                       1   BIC:                             10.51
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+Intercept        -0.6840      2.109     -0.324      0.800     -27.478      26.110
+bmi_mean_diff    -0.1342      1.939     -0.069      0.956     -24.765      24.497
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.857
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.458
+Skew:                          -0.595   Prob(JB):                        0.795
+Kurtosis:                       1.500   Cond. No.                         4.13
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 3
+     Anh Dinh Bao Vuong 2023 [Modified one-step conservative uterine surgery, (MOSCUS)]
+     Alina Weissmann-Brenner 2024 [Conservative management included leaving uterus in situ with/without placenta and with/without myometrial resection.]
+     Emin Üstünyurt 2020 [Local uterine resection with Bakri balloon placement]
+
+
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:              infection   R-squared:                      -0.089
+Model:                            GLS   Adj. R-squared:                 -0.634
+Method:                 Least Squares   F-statistic:                   -0.1638
+Date:                Sat, 03 Aug 2024   Prob (F-statistic):               1.00
+Time:                        15:06:24   Log-Likelihood:                -5.1721
+No. Observations:                   4   AIC:                             14.34
+Df Residuals:                       2   BIC:                             13.12
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+Intercept           -0.6968      0.627     -1.111      0.382      -3.395       2.001
+parity_mean_diff     0.2106      0.691      0.305      0.789      -2.764       3.185
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.598
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.871
+Skew:                          -1.085   Prob(JB):                        0.647
+Kurtosis:                       2.281   Cond. No.                         1.16
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 4
+     Anh Dinh Bao Vuong 2023 [Modified one-step conservative uterine surgery, (MOSCUS)]
+     Grzegorz H. Breborowicz 2013 [Placenta In Situ, (According to our conservative protocol placenta were left in uterus after the delivery of the fetus.)]
+     Emin Üstünyurt 2020 [Local uterine resection with Bakri balloon placement]
+     Dr Humeera Naz 2024 [myometrial excision]
+
+
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:              infection   R-squared:                       0.583
+Model:                            GLS   Adj. R-squared:                  0.374
+Method:                 Least Squares   F-statistic:                     2.793
+Date:                Sat, 03 Aug 2024   Prob (F-statistic):              0.237
+Time:                        15:06:24   Log-Likelihood:                -3.4455
+No. Observations:                   4   AIC:                             10.89
+Df Residuals:                       2   BIC:                             9.664
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==========================================================================================================
+                                             coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------------
+Intercept                                 -1.1509      0.514     -2.237      0.155      -3.365       1.063
+previous_cesarean_deliveries_mean_diff     1.6799      0.894      1.879      0.201      -2.168       5.527
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.613
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.481
+Skew:                           0.343   Prob(JB):                        0.786
+Kurtosis:                       1.446   Cond. No.                         2.55
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 4
+     Anh Dinh Bao Vuong 2023 [Modified one-step conservative uterine surgery, (MOSCUS)]
+     Alina Weissmann-Brenner 2024 [Conservative management included leaving uterus in situ with/without placenta and with/without myometrial resection.]
+     Grzegorz H. Breborowicz 2013 [Placenta In Situ, (According to our conservative protocol placenta were left in uterus after the delivery of the fetus.)]
+     Emin Üstünyurt 2020 [Local uterine resection with Bakri balloon placement]
+
+
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:              infection   R-squared:                      -0.227
+Model:                            GLS   Adj. R-squared:                 -0.841
+Method:                 Least Squares   F-statistic:                   -0.3701
+Date:                Sat, 03 Aug 2024   Prob (F-statistic):               1.00
+Time:                        15:06:24   Log-Likelihood:                -5.4265
+No. Observations:                   4   AIC:                             14.85
+Df Residuals:                       2   BIC:                             13.63
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================================
+                                   coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------------
+Intercept                       -0.6515      0.857     -0.760      0.527      -4.340       3.037
+placenta_previa_percent_diff    20.0158    231.309      0.087      0.939    -975.226    1015.258
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.412
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.682
+Skew:                          -0.920   Prob(JB):                        0.711
+Kurtosis:                       2.160   Cond. No.                         348.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 4
+     Anh Dinh Bao Vuong 2023 [Modified one-step conservative uterine surgery, (MOSCUS)]
+     Alina Weissmann-Brenner 2024 [Conservative management included leaving uterus in situ with/without placenta and with/without myometrial resection.]
+     Grzegorz H. Breborowicz 2013 [Placenta In Situ, (According to our conservative protocol placenta were left in uterus after the delivery of the fetus.)]
+     Dr Humeera Naz 2024 [myometrial excision]
+
+
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:              infection   R-squared:                       0.795
+Model:                            GLS   Adj. R-squared:                  0.590
+Method:                 Least Squares   F-statistic:                     3.875
+Date:                Sat, 03 Aug 2024   Prob (F-statistic):              0.299
+Time:                        15:06:24   Log-Likelihood:                 2.0045
+No. Observations:                   3   AIC:                         -0.008976
+Df Residuals:                       1   BIC:                            -1.812
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================================================
+                                                 coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------------
+Intercept                                      0.0283      0.134      0.211      0.868      -1.677       1.733
+gestational_age_at_delivery_week_mean_diff    -0.1204      0.056     -2.140      0.278      -0.835       0.594
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   2.714
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.320
+Skew:                           0.280   Prob(JB):                        0.852
+Kurtosis:                       1.500   Cond. No.                         2.66
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 3
+     Alina Weissmann-Brenner 2024 [Conservative management included leaving uterus in situ with/without placenta and with/without myometrial resection.]
+     Grzegorz H. Breborowicz 2013 [Placenta In Situ, (According to our conservative protocol placenta were left in uterus after the delivery of the fetus.)]
+     Dr Humeera Naz 2024 [myometrial excision]
+
+

@@ -1,0 +1,31 @@
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:           death_mother   R-squared:                      -0.308
+Model:                            GLS   Adj. R-squared:                 -1.616
+Method:                 Least Squares   F-statistic:                   -0.2355
+Date:                Sat, 03 Aug 2024   Prob (F-statistic):               1.00
+Time:                        15:06:40   Log-Likelihood:                -2.8427
+No. Observations:                   3   AIC:                             9.685
+Df Residuals:                       1   BIC:                             7.883
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+Intercept         0.4120      0.626      0.658      0.630      -7.548       8.372
+age_mean_diff    -0.1361      0.225     -0.604      0.654      -3.000       2.727
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.157
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.423
+Skew:                           0.532   Prob(JB):                        0.809
+Kurtosis:                       1.500   Cond. No.                         2.79
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 3
+     Afia Ansar 2014 [Placenta left in situ, Cesarean vs. Interval hysterectomy]
+     Lisa C. Zuckerwise 2020 [Placenta left in situ, Immediate versus Delayed hysterectomy]
+     Razieh Mohammad Jafari 2022 [removal of the lower segment only, or removal of the lower segment with uterine artery ligation, or removal of the lower segment with hypogastric artery ligation)]
+
+

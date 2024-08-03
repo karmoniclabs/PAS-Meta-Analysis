@@ -1,0 +1,295 @@
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:          icu_admission   R-squared:                       0.786
+Model:                            GLS   Adj. R-squared:                  0.743
+Method:                 Least Squares   F-statistic:                     18.31
+Date:                Sat, 03 Aug 2024   Prob (F-statistic):            0.00787
+Time:                        15:06:22   Log-Likelihood:                -9.6394
+No. Observations:                   7   AIC:                             23.28
+Df Residuals:                       5   BIC:                             23.17
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+Intercept         0.8477      0.599      1.416      0.216      -0.691       2.387
+age_mean_diff     0.4679      0.370      1.264      0.262      -0.484       1.420
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.706
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.030
+Skew:                          -0.157   Prob(JB):                        0.985
+Kurtosis:                       3.051   Cond. No.                         2.76
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 7
+     Hagai Amsalem 2011 [“conserving surgery” in which the placenta is left in situ after Caesarean section.]
+     Rozi Aditya Aryananda  2022 [Uterine conservative–resective surgery (Uterine conservative–resective surgery with IIAL & Uterine conservative–resective surgery with identification—ligation of the upper vesical, upper vaginal, and uterine arteries)]
+     Saad El Gelany 2019 [Group (B), (n = 48, 47.0%): underwent CS with cervical inversion and bilateral ligation of both uterine arteries.]
+     Saad El Gelany 2019 [Group (C), (n = 16, 15.7%): Leaving placenta in place.]
+     Emin Üstünyurt 2020 [Local uterine resection with Bakri balloon placement]
+     Alexander Paping 2024 [Focal resection]
+     Alexander Paping 2024 [Leaving the placenta in situ]
+
+
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:          icu_admission   R-squared:                       0.446
+Model:                            GLS   Adj. R-squared:                 -0.109
+Method:                 Least Squares   F-statistic:                    0.8039
+Date:                Sat, 03 Aug 2024   Prob (F-statistic):              0.535
+Time:                        15:06:22   Log-Likelihood:                -4.0713
+No. Observations:                   3   AIC:                             12.14
+Df Residuals:                       1   BIC:                             10.34
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=======================================================================================
+                          coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+Intercept               0.6762      1.151      0.587      0.662     -13.952      15.305
+gravidity_mean_diff     0.1368      4.985      0.027      0.983     -63.207      63.480
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   2.500
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.281
+Skew:                          -0.000   Prob(JB):                        0.869
+Kurtosis:                       1.500   Cond. No.                         5.40
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 3
+     Hagai Amsalem 2011 [“conserving surgery” in which the placenta is left in situ after Caesarean section.]
+     Alexander Paping 2024 [Focal resection]
+     Alexander Paping 2024 [Leaving the placenta in situ]
+
+
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:          icu_admission   R-squared:                       0.717
+Model:                            GLS   Adj. R-squared:                  0.646
+Method:                 Least Squares   F-statistic:                     10.12
+Date:                Sat, 03 Aug 2024   Prob (F-statistic):             0.0335
+Time:                        15:06:22   Log-Likelihood:                -6.8470
+No. Observations:                   6   AIC:                             17.69
+Df Residuals:                       4   BIC:                             17.28
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+Intercept            1.1283      0.566      1.993      0.117      -0.443       2.700
+parity_mean_diff    -0.1113      0.479     -0.232      0.828      -1.442       1.219
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   2.734
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                1.119
+Skew:                          -1.049   Prob(JB):                        0.571
+Kurtosis:                       2.723   Cond. No.                         2.65
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 6
+     Hagai Amsalem 2011 [“conserving surgery” in which the placenta is left in situ after Caesarean section.]
+     Saad El Gelany 2019 [Group (B), (n = 48, 47.0%): underwent CS with cervical inversion and bilateral ligation of both uterine arteries.]
+     Saad El Gelany 2019 [Group (C), (n = 16, 15.7%): Leaving placenta in place.]
+     Emin Üstünyurt 2020 [Local uterine resection with Bakri balloon placement]
+     Alexander Paping 2024 [Focal resection]
+     Alexander Paping 2024 [Leaving the placenta in situ]
+
+
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:          icu_admission   R-squared:                       0.717
+Model:                            GLS   Adj. R-squared:                  0.660
+Method:                 Least Squares   F-statistic:                     12.67
+Date:                Sat, 03 Aug 2024   Prob (F-statistic):             0.0162
+Time:                        15:06:22   Log-Likelihood:                -10.609
+No. Observations:                   7   AIC:                             25.22
+Df Residuals:                       5   BIC:                             25.11
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==========================================================================================================
+                                             coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------------
+Intercept                                  1.3655      0.610      2.238      0.075      -0.203       2.934
+previous_cesarean_deliveries_mean_diff     0.0216      0.754      0.029      0.978      -1.916       1.959
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   2.705
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.090
+Skew:                           0.276   Prob(JB):                        0.956
+Kurtosis:                       2.948   Cond. No.                         2.04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 7
+     Hagai Amsalem 2011 [“conserving surgery” in which the placenta is left in situ after Caesarean section.]
+     Rozi Aditya Aryananda  2022 [Uterine conservative–resective surgery (Uterine conservative–resective surgery with IIAL & Uterine conservative–resective surgery with identification—ligation of the upper vesical, upper vaginal, and uterine arteries)]
+     Saad El Gelany 2019 [Group (B), (n = 48, 47.0%): underwent CS with cervical inversion and bilateral ligation of both uterine arteries.]
+     Saad El Gelany 2019 [Group (C), (n = 16, 15.7%): Leaving placenta in place.]
+     Emin Üstünyurt 2020 [Local uterine resection with Bakri balloon placement]
+     Alexander Paping 2024 [Focal resection]
+     Alexander Paping 2024 [Leaving the placenta in situ]
+
+
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:          icu_admission   R-squared:                       0.802
+Model:                            GLS   Adj. R-squared:                  0.703
+Method:                 Least Squares   F-statistic:                     8.118
+Date:                Sat, 03 Aug 2024   Prob (F-statistic):              0.104
+Time:                        15:06:22   Log-Likelihood:                -6.2818
+No. Observations:                   4   AIC:                             16.56
+Df Residuals:                       2   BIC:                             15.34
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================================================
+                                                 coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------------
+Intercept                                      2.1039      1.077      1.954      0.190      -2.529       6.737
+gestational_age_at_delivery_week_mean_diff     0.6011      0.579      1.038      0.408      -1.890       3.092
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   2.957
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.809
+Skew:                          -1.032   Prob(JB):                        0.667
+Kurtosis:                       2.230   Cond. No.                         2.78
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 4
+     Hagai Amsalem 2011 [“conserving surgery” in which the placenta is left in situ after Caesarean section.]
+     Rozi Aditya Aryananda  2022 [Uterine conservative–resective surgery (Uterine conservative–resective surgery with IIAL & Uterine conservative–resective surgery with identification—ligation of the upper vesical, upper vaginal, and uterine arteries)]
+     Alexander Paping 2024 [Focal resection]
+     Alexander Paping 2024 [Leaving the placenta in situ]
+
+
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:          icu_admission   R-squared:                       0.738
+Model:                            GLS   Adj. R-squared:                  0.607
+Method:                 Least Squares   F-statistic:                     5.625
+Date:                Sat, 03 Aug 2024   Prob (F-statistic):              0.141
+Time:                        15:06:23   Log-Likelihood:                -6.9793
+No. Observations:                   4   AIC:                             17.96
+Df Residuals:                       2   BIC:                             16.73
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+Intercept                1.5170      1.142      1.328      0.315      -3.398       6.432
+accreta_percent_diff    -1.3304      8.472     -0.157      0.890     -37.782      35.121
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.850
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.357
+Skew:                          -0.565   Prob(JB):                        0.836
+Kurtosis:                       2.069   Cond. No.                         8.69
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 4
+     Rozi Aditya Aryananda  2022 [Uterine conservative–resective surgery (Uterine conservative–resective surgery with IIAL & Uterine conservative–resective surgery with identification—ligation of the upper vesical, upper vaginal, and uterine arteries)]
+     Emin Üstünyurt 2020 [Local uterine resection with Bakri balloon placement]
+     Alexander Paping 2024 [Focal resection]
+     Alexander Paping 2024 [Leaving the placenta in situ]
+
+
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:          icu_admission   R-squared:                       0.901
+Model:                            GLS   Adj. R-squared:                  0.852
+Method:                 Least Squares   F-statistic:                     18.24
+Date:                Sat, 03 Aug 2024   Prob (F-statistic):             0.0507
+Time:                        15:06:23   Log-Likelihood:                -5.0271
+No. Observations:                   4   AIC:                             14.05
+Df Residuals:                       2   BIC:                             12.83
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+Intercept                2.1689      0.674      3.218      0.085      -0.731       5.069
+increta_percent_diff    13.7257      7.473      1.837      0.208     -18.428      45.880
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   3.212
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.402
+Skew:                          -0.590   Prob(JB):                        0.818
+Kurtosis:                       1.991   Cond. No.                         12.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 4
+     Rozi Aditya Aryananda  2022 [Uterine conservative–resective surgery (Uterine conservative–resective surgery with IIAL & Uterine conservative–resective surgery with identification—ligation of the upper vesical, upper vaginal, and uterine arteries)]
+     Emin Üstünyurt 2020 [Local uterine resection with Bakri balloon placement]
+     Alexander Paping 2024 [Focal resection]
+     Alexander Paping 2024 [Leaving the placenta in situ]
+
+
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:          icu_admission   R-squared:                       0.832
+Model:                            GLS   Adj. R-squared:                  0.747
+Method:                 Least Squares   F-statistic:                     9.874
+Date:                Sat, 03 Aug 2024   Prob (F-statistic):             0.0881
+Time:                        15:06:23   Log-Likelihood:                -6.0935
+No. Observations:                   4   AIC:                             16.19
+Df Residuals:                       2   BIC:                             14.96
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================
+                            coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------
+Intercept                 2.7101      1.291      2.099      0.171      -2.846       8.266
+percreta_percent_diff    -9.9944      9.309     -1.074      0.395     -50.047      30.058
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.395
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.930
+Skew:                           1.130   Prob(JB):                        0.628
+Kurtosis:                       2.313   Cond. No.                         12.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 4
+     Rozi Aditya Aryananda  2022 [Uterine conservative–resective surgery (Uterine conservative–resective surgery with IIAL & Uterine conservative–resective surgery with identification—ligation of the upper vesical, upper vaginal, and uterine arteries)]
+     Emin Üstünyurt 2020 [Local uterine resection with Bakri balloon placement]
+     Alexander Paping 2024 [Focal resection]
+     Alexander Paping 2024 [Leaving the placenta in situ]
+
+
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:          icu_admission   R-squared:                       0.913
+Model:                            GLS   Adj. R-squared:                  0.870
+Method:                 Least Squares   F-statistic:                     21.01
+Date:                Sat, 03 Aug 2024   Prob (F-statistic):             0.0444
+Time:                        15:06:23   Log-Likelihood:                -2.3607
+No. Observations:                   4   AIC:                             8.721
+Df Residuals:                       2   BIC:                             7.494
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================================
+                                   coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------------
+Intercept                        1.4968      0.381      3.925      0.059      -0.144       3.137
+placenta_previa_percent_diff    -6.9653      2.870     -2.427      0.136     -19.316       5.385
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.222
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.887
+Skew:                           1.098   Prob(JB):                        0.642
+Kurtosis:                       2.295   Cond. No.                         9.36
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 4
+     Saad El Gelany 2019 [Group (B), (n = 48, 47.0%): underwent CS with cervical inversion and bilateral ligation of both uterine arteries.]
+     Saad El Gelany 2019 [Group (C), (n = 16, 15.7%): Leaving placenta in place.]
+     Alexander Paping 2024 [Focal resection]
+     Alexander Paping 2024 [Leaving the placenta in situ]
+
+

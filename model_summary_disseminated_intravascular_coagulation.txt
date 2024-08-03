@@ -1,0 +1,255 @@
+                                      GLS Regression Results                                      
+==================================================================================================
+Dep. Variable:     disseminated_intravascular_coagulation   R-squared:                      -0.302
+Model:                                                GLS   Adj. R-squared:                 -0.736
+Method:                                     Least Squares   F-statistic:                   -0.6956
+Date:                                    Sat, 03 Aug 2024   Prob (F-statistic):               1.00
+Time:                                            15:06:38   Log-Likelihood:                -6.1774
+No. Observations:                                       5   AIC:                             16.35
+Df Residuals:                                           3   BIC:                             15.57
+Df Model:                                               1                                         
+Covariance Type:                                nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+Intercept         0.9977      0.512      1.948      0.147      -0.632       2.628
+age_mean_diff     0.1525      0.294      0.518      0.640      -0.783       1.088
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.303
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.136
+Skew:                          -0.229   Prob(JB):                        0.934
+Kurtosis:                       2.335   Cond. No.                         1.96
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 5
+     Afia Ansar 2014 [Placenta left in situ, Cesarean vs. Interval hysterectomy]
+     Rozi Aditya Aryananda  2022 [Uterine conservative–resective surgery (Uterine conservative–resective surgery with IIAL & Uterine conservative–resective surgery with identification—ligation of the upper vesical, upper vaginal, and uterine arteries)]
+     Saad El Gelany 2019 [Group (B), (n = 48, 47.0%): underwent CS with cervical inversion and bilateral ligation of both uterine arteries.]
+     Grzegorz H. Breborowicz 2013 [Placenta In Situ, (According to our conservative protocol placenta were left in uterus after the delivery of the fetus.)]
+     Alexander Paping 2024 [Focal resection]
+
+
+                                      GLS Regression Results                                      
+==================================================================================================
+Dep. Variable:     disseminated_intravascular_coagulation   R-squared:                      -0.339
+Model:                                                GLS   Adj. R-squared:                 -1.008
+Method:                                     Least Squares   F-statistic:                   -0.5059
+Date:                                    Sat, 03 Aug 2024   Prob (F-statistic):               1.00
+Time:                                            15:06:38   Log-Likelihood:                -3.2917
+No. Observations:                                       4   AIC:                             10.58
+Df Residuals:                                           2   BIC:                             9.356
+Df Model:                                               1                                         
+Covariance Type:                                nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+Intercept            0.7296      0.755      0.967      0.436      -2.518       3.977
+parity_mean_diff     0.0023      0.702      0.003      0.998      -3.020       3.024
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.677
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.812
+Skew:                          -1.039   Prob(JB):                        0.666
+Kurtosis:                       2.258   Cond. No.                         3.61
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 4
+     Afia Ansar 2014 [Placenta left in situ, Cesarean vs. Interval hysterectomy]
+     Saad El Gelany 2019 [Group (B), (n = 48, 47.0%): underwent CS with cervical inversion and bilateral ligation of both uterine arteries.]
+     Grzegorz H. Breborowicz 2013 [Placenta In Situ, (According to our conservative protocol placenta were left in uterus after the delivery of the fetus.)]
+     Alexander Paping 2024 [Focal resection]
+
+
+                                      GLS Regression Results                                      
+==================================================================================================
+Dep. Variable:     disseminated_intravascular_coagulation   R-squared:                      -0.408
+Model:                                                GLS   Adj. R-squared:                 -0.878
+Method:                                     Least Squares   F-statistic:                   -0.8697
+Date:                                    Sat, 03 Aug 2024   Prob (F-statistic):               1.00
+Time:                                            15:06:38   Log-Likelihood:                -6.3738
+No. Observations:                                       5   AIC:                             16.75
+Df Residuals:                                           3   BIC:                             15.97
+Df Model:                                               1                                         
+Covariance Type:                                nonrobust                                         
+==========================================================================================================
+                                             coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------------
+Intercept                                  1.0616      0.534      1.986      0.141      -0.639       2.762
+previous_cesarean_deliveries_mean_diff     0.1421      0.962      0.148      0.892      -2.919       3.203
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.853
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.132
+Skew:                           0.292   Prob(JB):                        0.936
+Kurtosis:                       2.462   Cond. No.                         2.02
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 5
+     Afia Ansar 2014 [Placenta left in situ, Cesarean vs. Interval hysterectomy]
+     Rozi Aditya Aryananda  2022 [Uterine conservative–resective surgery (Uterine conservative–resective surgery with IIAL & Uterine conservative–resective surgery with identification—ligation of the upper vesical, upper vaginal, and uterine arteries)]
+     Saad El Gelany 2019 [Group (B), (n = 48, 47.0%): underwent CS with cervical inversion and bilateral ligation of both uterine arteries.]
+     Grzegorz H. Breborowicz 2013 [Placenta In Situ, (According to our conservative protocol placenta were left in uterus after the delivery of the fetus.)]
+     Alexander Paping 2024 [Focal resection]
+
+
+                                      GLS Regression Results                                      
+==================================================================================================
+Dep. Variable:     disseminated_intravascular_coagulation   R-squared:                       0.956
+Model:                                                GLS   Adj. R-squared:                  0.933
+Method:                                     Least Squares   F-statistic:                     43.01
+Date:                                    Sat, 03 Aug 2024   Prob (F-statistic):             0.0225
+Time:                                            15:06:38   Log-Likelihood:                 3.5193
+No. Observations:                                       4   AIC:                            -3.039
+Df Residuals:                                           2   BIC:                            -4.266
+Df Model:                                               1                                         
+Covariance Type:                                nonrobust                                         
+================================================================================================
+                                   coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------------
+Intercept                        1.0926      0.085     12.811      0.006       0.726       1.460
+placenta_previa_percent_diff    -5.0724      0.665     -7.633      0.017      -7.932      -2.213
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.535
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.427
+Skew:                          -0.601   Prob(JB):                        0.808
+Kurtosis:                       1.943   Cond. No.                         9.41
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 4
+     Afia Ansar 2014 [Placenta left in situ, Cesarean vs. Interval hysterectomy]
+     Saad El Gelany 2019 [Group (B), (n = 48, 47.0%): underwent CS with cervical inversion and bilateral ligation of both uterine arteries.]
+     Grzegorz H. Breborowicz 2013 [Placenta In Situ, (According to our conservative protocol placenta were left in uterus after the delivery of the fetus.)]
+     Alexander Paping 2024 [Focal resection]
+
+
+                                      GLS Regression Results                                      
+==================================================================================================
+Dep. Variable:     disseminated_intravascular_coagulation   R-squared:                       0.267
+Model:                                                GLS   Adj. R-squared:                 -0.100
+Method:                                     Least Squares   F-statistic:                    0.7268
+Date:                                    Sat, 03 Aug 2024   Prob (F-statistic):              0.484
+Time:                                            15:06:38   Log-Likelihood:                -4.2392
+No. Observations:                                       4   AIC:                             12.48
+Df Residuals:                                           2   BIC:                             11.25
+Df Model:                                               1                                         
+Covariance Type:                                nonrobust                                         
+==============================================================================================================
+                                                 coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------------
+Intercept                                      1.4697      0.559      2.630      0.119      -0.934       3.874
+gestational_age_at_delivery_week_mean_diff     0.5870      0.430      1.364      0.306      -1.265       2.439
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   0.699
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.458
+Skew:                          -0.588   Prob(JB):                        0.795
+Kurtosis:                       1.833   Cond. No.                         1.78
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 4
+     Afia Ansar 2014 [Placenta left in situ, Cesarean vs. Interval hysterectomy]
+     Rozi Aditya Aryananda  2022 [Uterine conservative–resective surgery (Uterine conservative–resective surgery with IIAL & Uterine conservative–resective surgery with identification—ligation of the upper vesical, upper vaginal, and uterine arteries)]
+     Grzegorz H. Breborowicz 2013 [Placenta In Situ, (According to our conservative protocol placenta were left in uterus after the delivery of the fetus.)]
+     Alexander Paping 2024 [Focal resection]
+
+
+                                      GLS Regression Results                                      
+==================================================================================================
+Dep. Variable:     disseminated_intravascular_coagulation   R-squared:                      -0.354
+Model:                                                GLS   Adj. R-squared:                 -1.708
+Method:                                     Least Squares   F-statistic:                   -0.2615
+Date:                                    Sat, 03 Aug 2024   Prob (F-statistic):               1.00
+Time:                                            15:06:38   Log-Likelihood:                -4.5217
+No. Observations:                                       3   AIC:                             13.04
+Df Residuals:                                           1   BIC:                             11.24
+Df Model:                                               1                                         
+Covariance Type:                                nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+Intercept                1.0395      1.110      0.937      0.521     -13.062      15.141
+accreta_percent_diff    -1.1706      5.320     -0.220      0.862     -68.766      66.425
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   2.275
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.314
+Skew:                          -0.254   Prob(JB):                        0.855
+Kurtosis:                       1.500   Cond. No.                         4.88
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 3
+     Afia Ansar 2014 [Placenta left in situ, Cesarean vs. Interval hysterectomy]
+     Rozi Aditya Aryananda  2022 [Uterine conservative–resective surgery (Uterine conservative–resective surgery with IIAL & Uterine conservative–resective surgery with identification—ligation of the upper vesical, upper vaginal, and uterine arteries)]
+     Alexander Paping 2024 [Focal resection]
+
+
+                                      GLS Regression Results                                      
+==================================================================================================
+Dep. Variable:     disseminated_intravascular_coagulation   R-squared:                       0.587
+Model:                                                GLS   Adj. R-squared:                  0.174
+Method:                                     Least Squares   F-statistic:                     1.422
+Date:                                    Sat, 03 Aug 2024   Prob (F-statistic):              0.444
+Time:                                            15:06:38   Log-Likelihood:                -2.7402
+No. Observations:                                       3   AIC:                             9.480
+Df Residuals:                                           1   BIC:                             7.678
+Df Model:                                               1                                         
+Covariance Type:                                nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+Intercept                1.4976      0.659      2.272      0.264      -6.877       9.873
+increta_percent_diff     9.6356      6.171      1.561      0.363     -68.774      88.045
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.039
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.323
+Skew:                          -0.288   Prob(JB):                        0.851
+Kurtosis:                       1.500   Cond. No.                         10.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 3
+     Afia Ansar 2014 [Placenta left in situ, Cesarean vs. Interval hysterectomy]
+     Rozi Aditya Aryananda  2022 [Uterine conservative–resective surgery (Uterine conservative–resective surgery with IIAL & Uterine conservative–resective surgery with identification—ligation of the upper vesical, upper vaginal, and uterine arteries)]
+     Alexander Paping 2024 [Focal resection]
+
+
+                                      GLS Regression Results                                      
+==================================================================================================
+Dep. Variable:     disseminated_intravascular_coagulation   R-squared:                      -0.338
+Model:                                                GLS   Adj. R-squared:                 -1.676
+Method:                                     Least Squares   F-statistic:                   -0.2525
+Date:                                    Sat, 03 Aug 2024   Prob (F-statistic):               1.00
+Time:                                            15:06:38   Log-Likelihood:                -4.5036
+No. Observations:                                       3   AIC:                             13.01
+Df Residuals:                                           1   BIC:                             11.20
+Df Model:                                               1                                         
+Covariance Type:                                nonrobust                                         
+=========================================================================================
+                            coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------
+Intercept                 1.2134      1.208      1.005      0.498     -14.131      16.558
+percreta_percent_diff    -1.7074      6.906     -0.247      0.846     -89.454      86.040
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   2.931
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.460
+Skew:                           0.598   Prob(JB):                        0.794
+Kurtosis:                       1.500   Cond. No.                         6.40
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 3
+     Afia Ansar 2014 [Placenta left in situ, Cesarean vs. Interval hysterectomy]
+     Rozi Aditya Aryananda  2022 [Uterine conservative–resective surgery (Uterine conservative–resective surgery with IIAL & Uterine conservative–resective surgery with identification—ligation of the upper vesical, upper vaginal, and uterine arteries)]
+     Alexander Paping 2024 [Focal resection]
+
+

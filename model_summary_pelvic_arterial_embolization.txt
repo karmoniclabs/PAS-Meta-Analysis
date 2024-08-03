@@ -1,0 +1,93 @@
+                                 GLS Regression Results                                 
+========================================================================================
+Dep. Variable:     pelvic_arterial_embolization   R-squared:                       0.976
+Model:                                      GLS   Adj. R-squared:                  0.951
+Method:                           Least Squares   F-statistic:                     40.12
+Date:                          Sat, 03 Aug 2024   Prob (F-statistic):             0.0997
+Time:                                  15:06:39   Log-Likelihood:                -1.2495
+No. Observations:                             3   AIC:                             6.499
+Df Residuals:                                 1   BIC:                             4.696
+Df Model:                                     1                                         
+Covariance Type:                      nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+Intercept        -0.5413      0.477     -1.135      0.460      -6.599       5.517
+age_mean_diff    -1.2198      0.296     -4.114      0.152      -4.987       2.547
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.009
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.291
+Skew:                           0.139   Prob(JB):                        0.865
+Kurtosis:                       1.500   Cond. No.                         2.50
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 3
+     Loïc Sentilhes 2022 [Leaving the Placenta In Situ (Partially or totally)]
+     Qianyun Wang 2022 [One-step conservative surgery (most common)]
+     Alexander Paping 2024 [Leaving the placenta in situ]
+
+
+                                 GLS Regression Results                                 
+========================================================================================
+Dep. Variable:     pelvic_arterial_embolization   R-squared:                       0.936
+Model:                                      GLS   Adj. R-squared:                  0.872
+Method:                           Least Squares   F-statistic:                     14.60
+Date:                          Sat, 03 Aug 2024   Prob (F-statistic):              0.163
+Time:                                  15:06:39   Log-Likelihood:                -2.7036
+No. Observations:                             3   AIC:                             9.407
+Df Residuals:                                 1   BIC:                             7.604
+Df Model:                                     1                                         
+Covariance Type:                      nonrobust                                         
+================================================================================================
+                                   coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------------
+Intercept                        0.2277      1.029      0.221      0.861     -12.851      13.307
+placenta_previa_percent_diff   -47.7549     19.830     -2.408      0.251    -299.717     204.208
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.016
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.299
+Skew:                          -0.187   Prob(JB):                        0.861
+Kurtosis:                       1.500   Cond. No.                         33.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 3
+     Loïc Sentilhes 2022 [Leaving the Placenta In Situ (Partially or totally)]
+     Qianyun Wang 2022 [One-step conservative surgery (most common)]
+     Alexander Paping 2024 [Leaving the placenta in situ]
+
+
+                                 GLS Regression Results                                 
+========================================================================================
+Dep. Variable:     pelvic_arterial_embolization   R-squared:                       0.589
+Model:                                      GLS   Adj. R-squared:                  0.177
+Method:                           Least Squares   F-statistic:                     1.431
+Date:                          Sat, 03 Aug 2024   Prob (F-statistic):              0.443
+Time:                                  15:06:39   Log-Likelihood:                -5.4922
+No. Observations:                             3   AIC:                             14.98
+Df Residuals:                                 1   BIC:                             13.18
+Df Model:                                     1                                         
+Covariance Type:                      nonrobust                                         
+=========================================================================================
+                            coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------
+Intercept                -1.7778      1.511     -1.177      0.448     -20.976      17.420
+percreta_percent_diff     5.9190     24.260      0.244      0.848    -302.332     314.170
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   2.465
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.282
+Skew:                          -0.043   Prob(JB):                        0.868
+Kurtosis:                       1.500   Cond. No.                         16.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[*] Studies (comparison pairs) Included: 3
+     Loïc Sentilhes 2022 [Leaving the Placenta In Situ (Partially or totally)]
+     Qianyun Wang 2022 [One-step conservative surgery (most common)]
+     Alexander Paping 2024 [Leaving the placenta in situ]
+
+
