@@ -1,0 +1,562 @@
+C:\Users\karmo\PycharmProjects\Meta_Ana\venv\Scripts\python.exe C:\Users\karmo\PycharmProjects\Meta_Ana\parse_excel.py 
+Removed packed_red_blood_cells_transfusion_ml of type OR from entry 19
+Removed no_of_adjacent_organ_injuries of type OR from entry 19
+Removed infection of type OR from entry 19
+Removed disseminated_intravascular_coagulation of type OR from entry 19
+Removed d_c_history of type N from entry 8
+Removed d_c_history of type N from entry 18
+Removed d_c_history of type N from entry 29
+Removed d_c_history of type N from entry 31
+Removed abortion_miscarriage of type N from entry 32
+Removed d_c_history of type N from entry 32
+estimated_blood_loss_ml: 23 entries
+    M: 23 entries
+packed_red_blood_cells_transfusion_ml: 26 entries
+    M: 26 entries
+duration_of_hospital_stay_days: 19 entries
+    M: 19 entries
+no_of_adjacent_organ_injuries: 21 entries
+    N: 21 entries
+major_artery_ligation: 14 entries
+    N: 14 entries
+infection: 11 entries
+    N: 11 entries
+disseminated_intravascular_coagulation: 9 entries
+    N: 9 entries
+death_mother: 4 entries
+    N: 4 entries
+neonatal_outcome_birthweight_g: 3 entries
+    M: 3 entries
+any_transfusion_of_rbc_intraoperative: 6 entries
+    N: 6 entries
+fresh_frozen_plasma_transfusion_ml: 11 entries
+    M: 11 entries
+duration_of_icu_stay_days: 7 entries
+    M: 7 entries
+operative_time_min: 15 entries
+    M: 15 entries
+planned_delivery: 15 entries
+    N: 15 entries
+re_laparotomy: 4 entries
+    N: 4 entries
+cryoprecipitate_transfusion_ml: 1 entries
+    M: 1 entries
+any_transfusion_of_fresh_frozen_plasma: 4 entries
+    N: 4 entries
+any_transfusion_of_platelets: 3 entries
+    N: 3 entries
+more_than_4_units_of_packed_rbcs_transfused: 4 entries
+    N: 4 entries
+total_ebl_more_than_3000_ml: 2 entries
+    N: 2 entries
+pelvic_arterial_embolization: 6 entries
+    N: 6 entries
+icu_admission: 9 entries
+    N: 9 entries
+neonatal_outcome_neonatal_icu_admission: 2 entries
+    N: 2 entries
+neonatal_outcome_need_for_mechanical_ventilation: 1 entries
+    N: 1 entries
+24 variables. 
+
+M: Provides mean and standard deviation values for each group and a p-value.
+OR: Includes odds ratio (OR), along with lower and upper confidence intervals, and a p-value.
+RR: Includes relative risk (RR), along with lower and upper confidence intervals, and a p-value.
+N: Shows the number and total population for each group and a p-value.
+MR: Offers median values and ranges for each group and a p-value.
+tM: Provides the mean and standard deviation only for the whole population (both groups).
+tMR: Includes the median and range only for the whole population (both groups).
+
+ 20 Analyses can be done:
+there are data from three or more comparison pairs (i.e. articles) for 20 variables.
+
+
+##############################
+any_transfusion_of_fresh_frozen_plasma
+##############################
+
+age_mean_diff
+bmi_mean_diff
+parity_mean_diff
+Demographic Variable parity_mean_diff Skipped because less than 3 studies contain the data (Outcome: any_transfusion_of_fresh_frozen_plasma).
+previous_cesarean_deliveries_mean_diff
+d_c_history_mean_diff
+Demographic Variable d_c_history_mean_diff Skipped because less than 3 studies contain the data (Outcome: any_transfusion_of_fresh_frozen_plasma).
+placenta_previa_percent_diff
+accreta_percent_diff
+Demographic Variable accreta_percent_diff Skipped because less than 3 studies contain the data (Outcome: any_transfusion_of_fresh_frozen_plasma).
+increta_percent_diff
+Demographic Variable increta_percent_diff Skipped because less than 3 studies contain the data (Outcome: any_transfusion_of_fresh_frozen_plasma).
+percreta_percent_diff
+Demographic Variable percreta_percent_diff Skipped because less than 3 studies contain the data (Outcome: any_transfusion_of_fresh_frozen_plasma).
+notable_pre_existing_condition_percent_diff
+Demographic Variable notable_pre_existing_condition_percent_diff Skipped because less than 3 studies contain the data (Outcome: any_transfusion_of_fresh_frozen_plasma).
+myomectomy_percent_diff
+gestational_age_at_delivery_week_mean_diff
+Demographic Variable gestational_age_at_delivery_week_mean_diff Skipped because less than 3 studies contain the data (Outcome: any_transfusion_of_fresh_frozen_plasma).
+gravidity_mean_diff
+Demographic Variable gravidity_mean_diff Skipped because less than 3 studies contain the data (Outcome: any_transfusion_of_fresh_frozen_plasma).
+
+##############################
+neonatal_outcome_birthweight_g
+##############################
+
+age_mean_diff
+parity_mean_diff
+Demographic Variable parity_mean_diff Skipped because less than 3 studies contain the data (Outcome: neonatal_outcome_birthweight_g).
+previous_cesarean_deliveries_mean_diff
+placenta_previa_percent_diff
+Demographic Variable placenta_previa_percent_diff Skipped because less than 3 studies contain the data (Outcome: neonatal_outcome_birthweight_g).
+gestational_age_at_delivery_week_mean_diff
+Demographic Variable gestational_age_at_delivery_week_mean_diff Skipped because less than 3 studies contain the data (Outcome: neonatal_outcome_birthweight_g).
+accreta_percent_diff
+Demographic Variable accreta_percent_diff Skipped because less than 3 studies contain the data (Outcome: neonatal_outcome_birthweight_g).
+increta_percent_diff
+Demographic Variable increta_percent_diff Skipped because less than 3 studies contain the data (Outcome: neonatal_outcome_birthweight_g).
+percreta_percent_diff
+Demographic Variable percreta_percent_diff Skipped because less than 3 studies contain the data (Outcome: neonatal_outcome_birthweight_g).
+bmi_mean_diff
+Demographic Variable bmi_mean_diff Skipped because less than 3 studies contain the data (Outcome: neonatal_outcome_birthweight_g).
+myomectomy_percent_diff
+Demographic Variable myomectomy_percent_diff Skipped because less than 3 studies contain the data (Outcome: neonatal_outcome_birthweight_g).
+
+##############################
+duration_of_hospital_stay_days
+##############################
+
+age_mean_diff
+parity_mean_diff
+previous_cesarean_deliveries_mean_diff
+placenta_previa_percent_diff
+gestational_age_at_delivery_week_mean_diff
+accreta_percent_diff
+increta_percent_diff
+percreta_percent_diff
+bmi_mean_diff
+gravidity_mean_diff
+d_c_history_mean_diff
+abortion_miscarriage_mean_diff
+Demographic Variable abortion_miscarriage_mean_diff Skipped because less than 3 studies contain the data (Outcome: duration_of_hospital_stay_days).
+myomectomy_percent_diff
+cervical_length_mm_mean_diff
+Demographic Variable cervical_length_mm_mean_diff Skipped because less than 3 studies contain the data (Outcome: duration_of_hospital_stay_days).
+Study ID 3 Skipped because No valid data for calculating Odds Ratios for the outcome planned_delivery
+Study ID 4 Skipped because No valid data for calculating Odds Ratios for the outcome planned_delivery
+Study ID 9 Skipped because No valid data for calculating Odds Ratios for the outcome planned_delivery
+Study ID 17 Skipped because No valid data for calculating Odds Ratios for the outcome planned_delivery
+
+##############################
+planned_delivery
+##############################
+
+age_mean_diff
+bmi_mean_diff
+parity_mean_diff
+previous_cesarean_deliveries_mean_diff
+d_c_history_mean_diff
+Demographic Variable d_c_history_mean_diff Skipped because less than 3 studies contain the data (Outcome: planned_delivery).
+placenta_previa_percent_diff
+accreta_percent_diff
+increta_percent_diff
+percreta_percent_diff
+notable_pre_existing_condition_percent_diff
+Demographic Variable notable_pre_existing_condition_percent_diff Skipped because less than 3 studies contain the data (Outcome: planned_delivery).
+myomectomy_percent_diff
+gestational_age_at_delivery_week_mean_diff
+gravidity_mean_diff
+abortion_miscarriage_mean_diff
+Demographic Variable abortion_miscarriage_mean_diff Skipped because less than 3 studies contain the data (Outcome: planned_delivery).
+cervical_length_mm_mean_diff
+Demographic Variable cervical_length_mm_mean_diff Skipped because less than 3 studies contain the data (Outcome: planned_delivery).
+Study ID 23 Skipped because No valid data for calculating Odds Ratios for the outcome major_artery_ligation
+Study ID 36 Skipped because No valid data for calculating Odds Ratios for the outcome major_artery_ligation
+
+##############################
+major_artery_ligation
+##############################
+
+age_mean_diff
+parity_mean_diff
+previous_cesarean_deliveries_mean_diff
+placenta_previa_percent_diff
+gestational_age_at_delivery_week_mean_diff
+accreta_percent_diff
+increta_percent_diff
+percreta_percent_diff
+bmi_mean_diff
+gravidity_mean_diff
+d_c_history_mean_diff
+abortion_miscarriage_mean_diff
+Demographic Variable abortion_miscarriage_mean_diff Skipped because less than 3 studies contain the data (Outcome: major_artery_ligation).
+myomectomy_percent_diff
+Demographic Variable myomectomy_percent_diff Skipped because less than 3 studies contain the data (Outcome: major_artery_ligation).
+cervical_length_mm_mean_diff
+Demographic Variable cervical_length_mm_mean_diff Skipped because less than 3 studies contain the data (Outcome: major_artery_ligation).
+Study ID 10 Skipped because sd values of the outcome estimated_blood_loss_ml  is NA.
+Study ID 11 Skipped because sd values of the outcome estimated_blood_loss_ml  is NA.
+
+##############################
+estimated_blood_loss_ml
+##############################
+
+age_mean_diff
+parity_mean_diff
+previous_cesarean_deliveries_mean_diff
+placenta_previa_percent_diff
+gestational_age_at_delivery_week_mean_diff
+accreta_percent_diff
+increta_percent_diff
+percreta_percent_diff
+bmi_mean_diff
+gravidity_mean_diff
+d_c_history_mean_diff
+cervical_length_mm_mean_diff
+Demographic Variable cervical_length_mm_mean_diff Skipped because less than 3 studies contain the data (Outcome: estimated_blood_loss_ml).
+myomectomy_percent_diff
+Demographic Variable myomectomy_percent_diff Skipped because less than 3 studies contain the data (Outcome: estimated_blood_loss_ml).
+Study ID 8 Skipped because No valid data for calculating Odds Ratios for the outcome death_mother
+
+##############################
+death_mother
+##############################
+
+age_mean_diff
+parity_mean_diff
+Demographic Variable parity_mean_diff Skipped because less than 3 studies contain the data (Outcome: death_mother).
+previous_cesarean_deliveries_mean_diff
+Demographic Variable previous_cesarean_deliveries_mean_diff Skipped because less than 3 studies contain the data (Outcome: death_mother).
+placenta_previa_percent_diff
+Demographic Variable placenta_previa_percent_diff Skipped because less than 3 studies contain the data (Outcome: death_mother).
+gestational_age_at_delivery_week_mean_diff
+Demographic Variable gestational_age_at_delivery_week_mean_diff Skipped because less than 3 studies contain the data (Outcome: death_mother).
+accreta_percent_diff
+Demographic Variable accreta_percent_diff Skipped because less than 3 studies contain the data (Outcome: death_mother).
+increta_percent_diff
+Demographic Variable increta_percent_diff Skipped because less than 3 studies contain the data (Outcome: death_mother).
+percreta_percent_diff
+Demographic Variable percreta_percent_diff Skipped because less than 3 studies contain the data (Outcome: death_mother).
+bmi_mean_diff
+Demographic Variable bmi_mean_diff Skipped because less than 3 studies contain the data (Outcome: death_mother).
+gravidity_mean_diff
+Demographic Variable gravidity_mean_diff Skipped because less than 3 studies contain the data (Outcome: death_mother).
+myomectomy_percent_diff
+Demographic Variable myomectomy_percent_diff Skipped because less than 3 studies contain the data (Outcome: death_mother).
+Study ID 1 Skipped because No valid data for calculating Odds Ratios for the outcome infection
+Study ID 9 Skipped because No valid data for calculating Odds Ratios for the outcome infection
+Study ID 25 Skipped because No valid data for calculating Odds Ratios for the outcome infection
+Study ID 26 Skipped because No valid data for calculating Odds Ratios for the outcome infection
+Study ID 35 Skipped because No valid data for calculating Odds Ratios for the outcome infection
+Study ID 36 Skipped because No valid data for calculating Odds Ratios for the outcome infection
+
+##############################
+infection
+##############################
+
+age_mean_diff
+bmi_mean_diff
+parity_mean_diff
+previous_cesarean_deliveries_mean_diff
+d_c_history_mean_diff
+Demographic Variable d_c_history_mean_diff Skipped because less than 3 studies contain the data (Outcome: infection).
+placenta_previa_percent_diff
+accreta_percent_diff
+Demographic Variable accreta_percent_diff Skipped because less than 3 studies contain the data (Outcome: infection).
+increta_percent_diff
+Demographic Variable increta_percent_diff Skipped because less than 3 studies contain the data (Outcome: infection).
+percreta_percent_diff
+Demographic Variable percreta_percent_diff Skipped because less than 3 studies contain the data (Outcome: infection).
+myomectomy_percent_diff
+Demographic Variable myomectomy_percent_diff Skipped because less than 3 studies contain the data (Outcome: infection).
+gestational_age_at_delivery_week_mean_diff
+Study ID 20 Skipped because No valid data for calculating Odds Ratios for the outcome pelvic_arterial_embolization
+Study ID 21 Skipped because No valid data for calculating Odds Ratios for the outcome pelvic_arterial_embolization
+Study ID 35 Skipped because No valid data for calculating Odds Ratios for the outcome pelvic_arterial_embolization
+
+##############################
+pelvic_arterial_embolization
+##############################
+
+age_mean_diff
+bmi_mean_diff
+Demographic Variable bmi_mean_diff Skipped because less than 3 studies contain the data (Outcome: pelvic_arterial_embolization).
+parity_mean_diff
+Demographic Variable parity_mean_diff Skipped because less than 3 studies contain the data (Outcome: pelvic_arterial_embolization).
+previous_cesarean_deliveries_mean_diff
+Demographic Variable previous_cesarean_deliveries_mean_diff Skipped because less than 3 studies contain the data (Outcome: pelvic_arterial_embolization).
+notable_pre_existing_condition_percent_diff
+Demographic Variable notable_pre_existing_condition_percent_diff Skipped because less than 3 studies contain the data (Outcome: pelvic_arterial_embolization).
+myomectomy_percent_diff
+Demographic Variable myomectomy_percent_diff Skipped because less than 3 studies contain the data (Outcome: pelvic_arterial_embolization).
+placenta_previa_percent_diff
+gestational_age_at_delivery_week_mean_diff
+Demographic Variable gestational_age_at_delivery_week_mean_diff Skipped because less than 3 studies contain the data (Outcome: pelvic_arterial_embolization).
+percreta_percent_diff
+increta_percent_diff
+Demographic Variable increta_percent_diff Skipped because less than 3 studies contain the data (Outcome: pelvic_arterial_embolization).
+gravidity_mean_diff
+Demographic Variable gravidity_mean_diff Skipped because less than 3 studies contain the data (Outcome: pelvic_arterial_embolization).
+accreta_percent_diff
+Demographic Variable accreta_percent_diff Skipped because less than 3 studies contain the data (Outcome: pelvic_arterial_embolization).
+Study ID 3 Skipped because No valid data for calculating Odds Ratios for the outcome no_of_adjacent_organ_injuries
+Study ID 10 Skipped because No valid data for calculating Odds Ratios for the outcome no_of_adjacent_organ_injuries
+Study ID 11 Skipped because No valid data for calculating Odds Ratios for the outcome no_of_adjacent_organ_injuries
+Study ID 27 Skipped because No valid data for calculating Odds Ratios for the outcome no_of_adjacent_organ_injuries
+
+##############################
+no_of_adjacent_organ_injuries
+##############################
+
+age_mean_diff
+parity_mean_diff
+previous_cesarean_deliveries_mean_diff
+placenta_previa_percent_diff
+gestational_age_at_delivery_week_mean_diff
+accreta_percent_diff
+increta_percent_diff
+percreta_percent_diff
+bmi_mean_diff
+gravidity_mean_diff
+d_c_history_mean_diff
+notable_pre_existing_condition_percent_diff
+Demographic Variable notable_pre_existing_condition_percent_diff Skipped because less than 3 studies contain the data (Outcome: no_of_adjacent_organ_injuries).
+myomectomy_percent_diff
+abortion_miscarriage_mean_diff
+Demographic Variable abortion_miscarriage_mean_diff Skipped because less than 3 studies contain the data (Outcome: no_of_adjacent_organ_injuries).
+cervical_length_mm_mean_diff
+Demographic Variable cervical_length_mm_mean_diff Skipped because less than 3 studies contain the data (Outcome: no_of_adjacent_organ_injuries).
+Study ID 3 Skipped because No valid data for calculating Odds Ratios for the outcome re_laparotomy
+Study ID 4 Skipped because No valid data for calculating Odds Ratios for the outcome re_laparotomy
+
+##############################
+re_laparotomy
+##############################
+
+age_mean_diff
+Demographic Variable age_mean_diff Skipped because less than 3 studies contain the data (Outcome: re_laparotomy).
+bmi_mean_diff
+Demographic Variable bmi_mean_diff Skipped because less than 3 studies contain the data (Outcome: re_laparotomy).
+parity_mean_diff
+Demographic Variable parity_mean_diff Skipped because less than 3 studies contain the data (Outcome: re_laparotomy).
+previous_cesarean_deliveries_mean_diff
+Demographic Variable previous_cesarean_deliveries_mean_diff Skipped because less than 3 studies contain the data (Outcome: re_laparotomy).
+d_c_history_mean_diff
+Demographic Variable d_c_history_mean_diff Skipped because less than 3 studies contain the data (Outcome: re_laparotomy).
+placenta_previa_percent_diff
+Demographic Variable placenta_previa_percent_diff Skipped because less than 3 studies contain the data (Outcome: re_laparotomy).
+accreta_percent_diff
+Demographic Variable accreta_percent_diff Skipped because less than 3 studies contain the data (Outcome: re_laparotomy).
+increta_percent_diff
+Demographic Variable increta_percent_diff Skipped because less than 3 studies contain the data (Outcome: re_laparotomy).
+percreta_percent_diff
+Demographic Variable percreta_percent_diff Skipped because less than 3 studies contain the data (Outcome: re_laparotomy).
+gestational_age_at_delivery_week_mean_diff
+Demographic Variable gestational_age_at_delivery_week_mean_diff Skipped because less than 3 studies contain the data (Outcome: re_laparotomy).
+No results found for re_laparotomy. Skipping file creation.
+
+##############################
+duration_of_icu_stay_days
+##############################
+
+age_mean_diff
+bmi_mean_diff
+Demographic Variable bmi_mean_diff Skipped because less than 3 studies contain the data (Outcome: duration_of_icu_stay_days).
+gravidity_mean_diff
+parity_mean_diff
+previous_cesarean_deliveries_mean_diff
+d_c_history_mean_diff
+accreta_percent_diff
+increta_percent_diff
+percreta_percent_diff
+gestational_age_at_delivery_week_mean_diff
+abortion_miscarriage_mean_diff
+Demographic Variable abortion_miscarriage_mean_diff Skipped because less than 3 studies contain the data (Outcome: duration_of_icu_stay_days).
+myomectomy_percent_diff
+Demographic Variable myomectomy_percent_diff Skipped because less than 3 studies contain the data (Outcome: duration_of_icu_stay_days).
+placenta_previa_percent_diff
+Demographic Variable placenta_previa_percent_diff Skipped because less than 3 studies contain the data (Outcome: duration_of_icu_stay_days).
+cervical_length_mm_mean_diff
+Demographic Variable cervical_length_mm_mean_diff Skipped because less than 3 studies contain the data (Outcome: duration_of_icu_stay_days).
+Study ID 9 Skipped because No valid data for calculating Odds Ratios for the outcome disseminated_intravascular_coagulation
+Study ID 26 Skipped because No valid data for calculating Odds Ratios for the outcome disseminated_intravascular_coagulation
+Study ID 31 Skipped because No valid data for calculating Odds Ratios for the outcome disseminated_intravascular_coagulation
+Study ID 36 Skipped because No valid data for calculating Odds Ratios for the outcome disseminated_intravascular_coagulation
+
+##############################
+disseminated_intravascular_coagulation
+##############################
+
+age_mean_diff
+parity_mean_diff
+previous_cesarean_deliveries_mean_diff
+placenta_previa_percent_diff
+gestational_age_at_delivery_week_mean_diff
+accreta_percent_diff
+increta_percent_diff
+percreta_percent_diff
+gravidity_mean_diff
+Demographic Variable gravidity_mean_diff Skipped because less than 3 studies contain the data (Outcome: disseminated_intravascular_coagulation).
+
+##############################
+any_transfusion_of_platelets
+##############################
+
+age_mean_diff
+bmi_mean_diff
+parity_mean_diff
+Demographic Variable parity_mean_diff Skipped because less than 3 studies contain the data (Outcome: any_transfusion_of_platelets).
+previous_cesarean_deliveries_mean_diff
+d_c_history_mean_diff
+Demographic Variable d_c_history_mean_diff Skipped because less than 3 studies contain the data (Outcome: any_transfusion_of_platelets).
+placenta_previa_percent_diff
+accreta_percent_diff
+Demographic Variable accreta_percent_diff Skipped because less than 3 studies contain the data (Outcome: any_transfusion_of_platelets).
+increta_percent_diff
+Demographic Variable increta_percent_diff Skipped because less than 3 studies contain the data (Outcome: any_transfusion_of_platelets).
+percreta_percent_diff
+Demographic Variable percreta_percent_diff Skipped because less than 3 studies contain the data (Outcome: any_transfusion_of_platelets).
+notable_pre_existing_condition_percent_diff
+Demographic Variable notable_pre_existing_condition_percent_diff Skipped because less than 3 studies contain the data (Outcome: any_transfusion_of_platelets).
+myomectomy_percent_diff
+Demographic Variable myomectomy_percent_diff Skipped because less than 3 studies contain the data (Outcome: any_transfusion_of_platelets).
+gestational_age_at_delivery_week_mean_diff
+Demographic Variable gestational_age_at_delivery_week_mean_diff Skipped because less than 3 studies contain the data (Outcome: any_transfusion_of_platelets).
+Study ID 10 Skipped because sd values of the outcome packed_red_blood_cells_transfusion_ml  is NA.
+Study ID 11 Skipped because sd values of the outcome packed_red_blood_cells_transfusion_ml  is NA.
+
+##############################
+packed_red_blood_cells_transfusion_ml
+##############################
+
+age_mean_diff
+parity_mean_diff
+previous_cesarean_deliveries_mean_diff
+placenta_previa_percent_diff
+gestational_age_at_delivery_week_mean_diff
+accreta_percent_diff
+increta_percent_diff
+percreta_percent_diff
+bmi_mean_diff
+gravidity_mean_diff
+d_c_history_mean_diff
+notable_pre_existing_condition_percent_diff
+Demographic Variable notable_pre_existing_condition_percent_diff Skipped because less than 3 studies contain the data (Outcome: packed_red_blood_cells_transfusion_ml).
+myomectomy_percent_diff
+abortion_miscarriage_mean_diff
+Demographic Variable abortion_miscarriage_mean_diff Skipped because less than 3 studies contain the data (Outcome: packed_red_blood_cells_transfusion_ml).
+cervical_length_mm_mean_diff
+Demographic Variable cervical_length_mm_mean_diff Skipped because less than 3 studies contain the data (Outcome: packed_red_blood_cells_transfusion_ml).
+Study ID 27 Skipped because No valid data for calculating Odds Ratios for the outcome any_transfusion_of_rbc_intraoperative
+
+##############################
+any_transfusion_of_rbc_intraoperative
+##############################
+
+age_mean_diff
+parity_mean_diff
+placenta_previa_percent_diff
+bmi_mean_diff
+previous_cesarean_deliveries_mean_diff
+d_c_history_mean_diff
+Demographic Variable d_c_history_mean_diff Skipped because less than 3 studies contain the data (Outcome: any_transfusion_of_rbc_intraoperative).
+accreta_percent_diff
+Demographic Variable accreta_percent_diff Skipped because less than 3 studies contain the data (Outcome: any_transfusion_of_rbc_intraoperative).
+increta_percent_diff
+Demographic Variable increta_percent_diff Skipped because less than 3 studies contain the data (Outcome: any_transfusion_of_rbc_intraoperative).
+percreta_percent_diff
+Demographic Variable percreta_percent_diff Skipped because less than 3 studies contain the data (Outcome: any_transfusion_of_rbc_intraoperative).
+notable_pre_existing_condition_percent_diff
+Demographic Variable notable_pre_existing_condition_percent_diff Skipped because less than 3 studies contain the data (Outcome: any_transfusion_of_rbc_intraoperative).
+myomectomy_percent_diff
+gestational_age_at_delivery_week_mean_diff
+Demographic Variable gestational_age_at_delivery_week_mean_diff Skipped because less than 3 studies contain the data (Outcome: any_transfusion_of_rbc_intraoperative).
+gravidity_mean_diff
+Demographic Variable gravidity_mean_diff Skipped because less than 3 studies contain the data (Outcome: any_transfusion_of_rbc_intraoperative).
+Study ID 27 Skipped because No valid data for calculating Odds Ratios for the outcome icu_admission
+Study ID 29 Skipped because No valid data for calculating Odds Ratios for the outcome icu_admission
+
+##############################
+icu_admission
+##############################
+
+age_mean_diff
+gravidity_mean_diff
+parity_mean_diff
+previous_cesarean_deliveries_mean_diff
+d_c_history_mean_diff
+Demographic Variable d_c_history_mean_diff Skipped because less than 3 studies contain the data (Outcome: icu_admission).
+gestational_age_at_delivery_week_mean_diff
+accreta_percent_diff
+increta_percent_diff
+percreta_percent_diff
+placenta_previa_percent_diff
+bmi_mean_diff
+Demographic Variable bmi_mean_diff Skipped because less than 3 studies contain the data (Outcome: icu_admission).
+myomectomy_percent_diff
+Demographic Variable myomectomy_percent_diff Skipped because less than 3 studies contain the data (Outcome: icu_admission).
+Study ID 10 Skipped because sd values of the outcome operative_time_min  is NA.
+Study ID 11 Skipped because sd values of the outcome operative_time_min  is NA.
+
+##############################
+operative_time_min
+##############################
+
+age_mean_diff
+bmi_mean_diff
+gravidity_mean_diff
+parity_mean_diff
+previous_cesarean_deliveries_mean_diff
+d_c_history_mean_diff
+accreta_percent_diff
+increta_percent_diff
+percreta_percent_diff
+placenta_previa_percent_diff
+Demographic Variable placenta_previa_percent_diff Skipped because less than 3 studies contain the data (Outcome: operative_time_min).
+gestational_age_at_delivery_week_mean_diff
+myomectomy_percent_diff
+Demographic Variable myomectomy_percent_diff Skipped because less than 3 studies contain the data (Outcome: operative_time_min).
+
+##############################
+fresh_frozen_plasma_transfusion_ml
+##############################
+
+age_mean_diff
+bmi_mean_diff
+gravidity_mean_diff
+parity_mean_diff
+previous_cesarean_deliveries_mean_diff
+d_c_history_mean_diff
+accreta_percent_diff
+increta_percent_diff
+percreta_percent_diff
+placenta_previa_percent_diff
+notable_pre_existing_condition_percent_diff
+Demographic Variable notable_pre_existing_condition_percent_diff Skipped because less than 3 studies contain the data (Outcome: fresh_frozen_plasma_transfusion_ml).
+myomectomy_percent_diff
+gestational_age_at_delivery_week_mean_diff
+abortion_miscarriage_mean_diff
+Demographic Variable abortion_miscarriage_mean_diff Skipped because less than 3 studies contain the data (Outcome: fresh_frozen_plasma_transfusion_ml).
+cervical_length_mm_mean_diff
+Demographic Variable cervical_length_mm_mean_diff Skipped because less than 3 studies contain the data (Outcome: fresh_frozen_plasma_transfusion_ml).
+
+##############################
+more_than_4_units_of_packed_rbcs_transfused
+##############################
+
+age_mean_diff
+bmi_mean_diff
+parity_mean_diff
+previous_cesarean_deliveries_mean_diff
+gestational_age_at_delivery_week_mean_diff
+accreta_percent_diff
+Demographic Variable accreta_percent_diff Skipped because less than 3 studies contain the data (Outcome: more_than_4_units_of_packed_rbcs_transfused).
+increta_percent_diff
+Demographic Variable increta_percent_diff Skipped because less than 3 studies contain the data (Outcome: more_than_4_units_of_packed_rbcs_transfused).
+percreta_percent_diff
+notable_pre_existing_condition_percent_diff
+Demographic Variable notable_pre_existing_condition_percent_diff Skipped because less than 3 studies contain the data (Outcome: more_than_4_units_of_packed_rbcs_transfused).
+myomectomy_percent_diff
+placenta_previa_percent_diff
+Demographic Variable placenta_previa_percent_diff Skipped because less than 3 studies contain the data (Outcome: more_than_4_units_of_packed_rbcs_transfused).
+Results are available at: assets/meta-regression/2024-08-06_15-09-31
+
+Process finished with exit code 0
